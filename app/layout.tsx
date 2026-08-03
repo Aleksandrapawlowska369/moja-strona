@@ -14,8 +14,31 @@ const cormorant = Cormorant_Garamond({
 });
 
 export const metadata: Metadata = {
-  title: "Transformacja Osobowości | Rozpocznij Nowy Rozdział",
-  description: "Nowoczesny program rozwoju osobistego i kreacji własnej tożsamości.",
+  title: "Twoja Nowa Tożsamość | 90-dniowy program zmiany",
+  description: "90-dniowy program Przemysława Krupskiego: praca z reakcjami, emocjami, ciałem i tożsamością, aby wprowadzać zmianę krok po kroku.",
+  openGraph: {
+    title: "Twoja Nowa Tożsamość | 90-dniowy program zmiany",
+    description: "90-dniowy proces łączący pracę z umysłem, emocjami, oddechem, ciałem i podświadomością.",
+    siteName: "Przeistoczenie",
+    locale: "pl_PL",
+    type: "website",
+    images: [
+      {
+        url: "/tnt.png",
+        alt: "Twoja Nowa Tożsamość – 90-dniowy program zmiany",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Twoja Nowa Tożsamość | 90-dniowy program zmiany",
+    description: "90-dniowy proces pracy z reakcjami, emocjami, ciałem i tożsamością.",
+    images: ["/tnt.png"],
+  },
+  robots: {
+    index: true,
+    follow: true,
+  },
 };
 
 export default function RootLayout({
