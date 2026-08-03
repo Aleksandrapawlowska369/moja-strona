@@ -1,0 +1,22 @@
+@import "tailwindcss";
+@config "../tailwind.config.ts";
+
+@theme inline {
+  --color-primary: #3A84FF;
+  --font-sans: var(--font-manrope);
+  --font-heading: var(--font-cormorant);
+}
+
+@layer base {
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-heading);
+  }
+}
+
+body {
+  background-color: #1A1A1A;
+  color: #F8FAFC;
+  overflow-x: hidden;
+}
+
+
