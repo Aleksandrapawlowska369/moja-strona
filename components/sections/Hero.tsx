@@ -24,14 +24,22 @@ export function Hero() {
           Wiesz już, dlaczego wracasz do starych schematów. Przez 90 dni krok po kroku rozpoznajesz i rozbrajasz automatyczne reakcje, uczysz się przyjmować i utrzymywać zmianę oraz zaczynasz działać z poziomu osoby, którą chcesz się stać.
         </p>
         
-        <div className="mt-10 flex flex-col items-center w-full md:w-auto">
-          <Link 
-            href="#oferta" 
-            className="flex items-center justify-center w-full md:w-auto py-4 px-8 text-white text-base md:text-lg font-bold bg-gradient-to-r from-[#3A84FF] to-[#2563EB] rounded-[10px] hover:scale-105 transition-transform duration-300 shadow-[0_0_30px_rgba(58,132,255,0.4)]"
-          >
-            ZOBACZ PEŁNY PROGRAM
-          </Link>
-          <p className="mt-5 text-sm text-gray-300 max-w-xs md:max-w-md mx-auto leading-snug">
+        <div className="mt-10 flex flex-col items-center w-full">
+          <div className="flex flex-col md:flex-row items-center justify-center gap-4 w-full md:w-auto">
+            <Link 
+              href="#etapy" 
+              className="flex items-center justify-center w-full md:w-auto py-4 px-8 text-white text-base md:text-lg font-bold bg-gradient-to-r from-[#3A84FF] to-[#2563EB] rounded-[10px] hover:scale-105 transition-transform duration-300 shadow-[0_0_30px_rgba(58,132,255,0.4)]"
+            >
+              ZOBACZ PEŁNY PROGRAM
+            </Link>
+            <Link 
+              href="#termostat" 
+              className="flex items-center justify-center w-full md:w-auto py-4 px-8 text-white text-base md:text-lg font-bold bg-transparent border border-gray-400 rounded-[10px] hover:border-white hover:bg-white/5 transition-colors duration-300"
+            >
+              SPRAWDŹ, JAK DZIAŁA TERMOSTAT
+            </Link>
+          </div>
+          <p className="mt-5 text-sm text-gray-300 max-w-xs md:max-w-md mx-auto leading-snug text-center">
             Jeden materiał dziennie • od kilku do około 30 minut • 5 miesięcy dostępu
           </p>
         </div>

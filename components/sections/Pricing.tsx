@@ -106,16 +106,13 @@ export function Pricing() {
         <div className="max-w-3xl mx-auto text-center">
           <div className="bg-white p-6 rounded-2xl border border-slate-200 shadow-sm mb-4 text-slate-600 text-sm md:text-base text-left md:text-center space-y-6 md:space-y-4">
             <p className="leading-relaxed">
-              Pakiet 30 dni pozwala rozpocząć od pierwszego etapu. Przed jego zakończeniem otrzymasz informację o możliwości dokupienia pozostałej części programu za 1097 zł brutto.
+              Pakiet 30 dni pozwala rozpocząć od pierwszego etapu i sprawdzić, jak pracuje Ci się w tym rytmie. Przed zakończeniem pierwszych 30 dni otrzymasz informację o możliwości dokupienia pozostałej części programu za 1097 zł brutto.
             </p>
             <p className="leading-relaxed">
-              Wpłata za pakiet 30 dni nie jest odliczana od ceny kontynuacji. Przy aktualnych cenach regularnych pełna droga kupowana etapami kosztuje łącznie 1694 zł brutto.
+              Pakiet 30 dni i późniejsza kontynuacja są dwiema osobnymi częściami programu oraz dwiema osobnymi płatnościami. Łączny koszt tej drogi wynosi 1694 zł brutto.
             </p>
             <p className="leading-relaxed">
-              Kupując pełny proces 90 dni od razu za 1497 zł brutto, oszczędzasz 197 zł i od początku otrzymujesz dostęp do całej, zaplanowanej drogi.
-            </p>
-            <p className="leading-relaxed font-semibold text-[#1E293B]">
-              Pełny proces 90 dni jest najkorzystniejszym wyborem, jeśli chcesz przejść całą drogę.
+              Jeśli już teraz wiesz, że chcesz przejść wszystkie cztery etapy, pełny proces 90 dni kosztuje 1497 zł brutto, czyli 197 zł mniej niż zakup etapami, i od początku daje Ci dostęp do całej zaplanowanej ścieżki.
             </p>
           </div>
           <p className="text-xs text-slate-400">

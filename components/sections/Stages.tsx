@@ -1,3 +1,5 @@
+import Link from 'next/link';
+
 export function Stages() {
   const stages = [
     {
@@ -76,11 +78,17 @@ export function Stages() {
               Pełny proces prowadzi dalej: przez pracę z lękiem i mechanizmami ochronnymi, budowanie nowych standardów i decyzji, aż do świadomej kreacji i integracji własnego sposobu dalszej pracy.
             </p>
           </div>
-          <div className="inline-block px-5 md:px-6 py-4 md:py-3 bg-[#F1F5F9] rounded-xl w-full md:w-auto">
-            <p className="text-[#3A84FF] font-bold text-base md:text-lg leading-relaxed">
-              30 dni pomagają zacząć. 90 dni pozwala przejść całą drogę.
+          <div className="inline-block px-5 md:px-6 py-4 md:py-3 bg-[#F1F5F9] rounded-xl w-full md:w-auto mb-8">
+            <p className="text-slate-700 font-medium text-base md:text-lg leading-relaxed">
+              Pierwsze 30 dni budują fundament. Pełny, 90-dniowy proces prowadzi przez całą zaplanowaną ścieżkę.
             </p>
           </div>
+          <Link 
+            href="#oferta" 
+            className="flex items-center justify-center w-full md:w-auto py-4 px-8 text-white text-base md:text-lg font-bold bg-gradient-to-r from-[#3A84FF] to-[#2563EB] rounded-[10px] hover:scale-105 transition-transform duration-300 shadow-[0_0_30px_rgba(58,132,255,0.4)]"
+          >
+            ZOBACZ DOSTĘPNE FORMY UDZIAŁU
+          </Link>
         </div>
       </div>
     </section>

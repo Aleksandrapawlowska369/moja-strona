@@ -53,8 +53,13 @@ export function Rhythm() {
           
           <div className="max-w-4xl mx-auto bg-white p-6 md:p-8 rounded-2xl shadow-sm border border-slate-200 mb-16">
             <p className="text-slate-600 leading-relaxed">
-              Cztery etapy opisują całą 90-dniową drogę. Każdy tydzień ma natomiast stały rytm: <span className="font-bold text-[#1E293B]">ZOBACZ → POCZUJ → WYBIERZ</span>.
+              Cztery etapy opisują całą 90-dniową drogę. Każdy tydzień ma natomiast stały rytm:
             </p>
+            <div className="mt-3">
+              <span className="block font-bold text-[#1E293B]">
+                ZOBACZ → POCZUJ → WYBIERZ
+              </span>
+            </div>
           </div>
         </div>
 
