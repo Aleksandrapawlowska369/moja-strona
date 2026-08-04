@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Manrope, Cormorant_Garamond } from "next/font/google";
 import "./globals.css";
+import { Analytics } from "@vercel/analytics/next";
 
 const manrope = Manrope({
   variable: "--font-manrope",
@@ -50,6 +51,7 @@ export default function RootLayout({
     <html lang="pl" className={`${manrope.variable} ${cormorant.variable} antialiased`} style={{ colorScheme: 'dark' }}>
       <body className="min-h-screen font-sans flex flex-col bg-[#1A1A1A] text-white">
         {children}
+        <Analytics />
       </body>
     </html>
   );
