@@ -1,4 +1,5 @@
 import { Hero } from '@/components/sections/Hero';
+import { Bridge } from '@/components/sections/Bridge';
 import { PainPoints } from '@/components/sections/PainPoints';
 import { Solution } from '@/components/sections/Solution';
 import { Stages } from '@/components/sections/Stages';
@@ -14,6 +15,7 @@ export default function MarketingPage() {
   return (
     <>
       <Hero />
+      <Bridge />
       <PainPoints />
       <Solution />
       <Stages />

@@ -1,69 +1,43 @@
-import { Headphones, Wind, Sparkles, Activity, MessageCircle, BookOpen } from 'lucide-react';
-
-const features = [
-  {
-    icon: <Headphones className="w-6 h-6 text-[#3A84FF]" />,
-    title: "36 nagrań mindsetowych",
-    description: "Pracujesz między innymi z przekonaniami, oporem, lękiem, granicami, wewnętrznym językiem, obrazem siebie, pragnieniami i świadomą kreacją."
-  },
-  {
-    icon: <Wind className="w-6 h-6 text-[#3A84FF]" />,
-    title: "Praktyki oddechowe",
-    description: "Narzędzia pomagające pracować z napięciem, emocjami i stanem układu nerwowego."
-  },
-  {
-    icon: <Sparkles className="w-6 h-6 text-[#3A84FF]" />,
-    title: "Medytacje i autohipnozy",
-    description: "Praktyki angażujące wyobraźnię, emocje, przekonania oraz nowy obraz siebie."
-  },
-  {
-    icon: <Activity className="w-6 h-6 text-[#3A84FF]" />,
-    title: "Ciało i ruch",
-    description: "Ćwiczenia ruchowe i ruchowo-oddechowe pomagające pracować z napięciem odczuwanym w ciele."
-  },
-  {
-    icon: <MessageCircle className="w-6 h-6 text-[#3A84FF]" />,
-    title: "Prowadzenie i Q&A",
-    description: "Codzienne wiadomości, regularne spotkania z Przemysławem oraz dostęp do nagrań Q&A przez siedem dni."
-  },
-  {
-    icon: <BookOpen className="w-6 h-6 text-[#3A84FF]" />,
-    title: "Materiały integracyjne",
-    description: "Karty tygodnia, pytania do refleksji, ankiety, list do siebie oraz osobisty plan dalszej pracy."
-  }
-];
-
 export function Features() {
   return (
     <section id="zawartosc" className="py-20 md:py-32 bg-white">
-      <div className="container mx-auto px-6 max-w-7xl">
-        <div className="text-center mb-16 md:mb-24">
-          <h2 className="text-3xl md:text-5xl font-bold text-[#1E293B] mb-6">
-            Narzędzia, które prowadzą Cię przez proces zmiany
+      <div className="container mx-auto px-6 max-w-4xl">
+        <div className="text-left mb-12 md:mb-16">
+          <h2 className="text-3xl md:text-5xl font-bold text-[#1E293B] mb-8 leading-tight">
+            Chcę, żeby z czasem było Ci łatwiej być po swojej stronie.
           </h2>
-          <p className="text-lg text-slate-600 max-w-2xl mx-auto">
-            Program łączy wiedzę, praktykę i prowadzenie, dzięki czemu pracujesz nie tylko z myślami, ale również z emocjami, ciałem i podświadomością.
+        </div>
+
+        <div className="space-y-6 md:space-y-8 text-lg text-slate-600 leading-relaxed max-w-3xl">
+          <p>
+            Łatwiej przechodzi się przez zmianę, kiedy masz obok kogoś, kto wierzy w Ciebie, nie przekreśla po błędzie i potrafi przypomnieć szerszą perspektywę.
+          </p>
+          <p>
+            Jedną z najważniejszych rzeczy w programie jest stopniowo stawać się taką osobą również dla siebie. Właśnie tak rozumiem miłość do siebie.
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-          {features.map((feature, index) => (
-            <div 
-              key={index} 
-              className="flex flex-col p-8 rounded-2xl bg-[#F8FAFC] border border-slate-100 hover:bg-white hover:shadow-xl hover:-translate-y-1 transition-all duration-300 group h-full"
-            >
-              <div className="w-14 h-14 rounded-xl bg-blue-50 flex items-center justify-center mb-6 group-hover:scale-110 transition-transform shrink-0">
-                {feature.icon}
-              </div>
-              <h3 className="text-xl font-bold text-[#1E293B] mb-3">{feature.title}</h3>
-              <p className="text-slate-600 leading-relaxed mt-auto">
-                {feature.description}
-              </p>
-            </div>
-          ))}
+        <div className="my-14 md:my-20 pl-6 md:pl-10 border-l-[3px] border-[#3A84FF]/30 py-2">
+          <p className="font-heading text-2xl md:text-3xl lg:text-4xl text-[#1E293B] font-medium leading-snug italic">
+            „Gdyby program składał się ze stu procent, to dla mnie miłość stanowi pięćdziesiąt procent tego programu.”
+          </p>
+        </div>
+
+        <div className="text-lg text-slate-600 leading-relaxed max-w-3xl mb-16 md:mb-24">
+          <p>
+            Dlatego wracamy do akceptacji, wybaczania, wewnętrznego krytyka i dziecka, poczucia własnej wartości, stawania po swojej stronie oraz kontaktu z tym, co naprawdę Twoje.
+          </p>
+        </div>
+
+        <div className="pt-12 md:pt-16 border-t border-slate-200">
+          <p className="text-lg text-slate-500 mb-6 font-medium">
+            Jedna z uczestniczek podsumowała to bardzo prosto:
+          </p>
+          <p className="font-heading text-3xl md:text-4xl text-[#1E293B] font-bold leading-tight italic">
+            „Zaczęłam być swoim przyjacielem zamiast krytykiem.”
+          </p>
         </div>
       </div>
     </section>
   );
 }
-
