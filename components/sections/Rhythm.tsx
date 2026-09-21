@@ -1,33 +1,53 @@
 export function Rhythm() {
   return (
-    <section id="energia" className="py-20 md:py-28 bg-[#F8FAFC]">
-      <div className="container mx-auto px-6 max-w-4xl">
-        <div className="text-left mb-16 md:mb-20">
-          <h2 className="text-3xl md:text-5xl font-bold text-[#1E293B] mb-8 leading-tight">
-            W programie pracujemy również z energią, ale nie jako z ozdobnym słowem.
+    <section id="energia" className="py-24 md:py-32 bg-[#F8FAFC]">
+      <div className="container mx-auto px-6 max-w-4xl flex flex-col">
+        
+        {/* 1. Duży H2 */}
+        <div className="mb-16 md:mb-20 max-w-3xl">
+          <h2 className="font-heading text-3xl md:text-5xl lg:text-6xl font-medium text-[#1E293B] leading-[1.15]">
+            Ten sam dzień może wyglądać zupełnie inaczej w zależności od tego, z jakiego stanu w niego wchodzisz.
           </h2>
         </div>
 
-        <div className="space-y-6 md:space-y-8 text-lg text-slate-600 leading-relaxed max-w-3xl">
+        {/* 2. Dwa krótkie akapity (Body 1) */}
+        <div className="space-y-6 md:space-y-8 text-lg md:text-xl text-slate-600 font-light leading-relaxed max-w-3xl">
           <p>
-            Energia, duchowość i świadoma kreacja są naturalną częścią mojego świata. Nie próbuję jednak tłumaczyć każdego doświadczenia energetycznego jednym naukowym mechanizmem.
+            Możesz wejść w trudną rozmowę z napięcia, lęku i potrzeby obrony. Możesz też wejść w nią z większym spokojem, kontaktem ze sobą i przestrzenią na świadomą odpowiedź.
           </p>
           <p>
-            Pracujesz z energią przez oddech, ruch, medytację, emocje, uwagę i intencję. Obserwujesz, z jakiego stanu wchodzisz w działanie i co pomaga Ci wracać do większego spokoju, przestrzeni, zaufania i otwartości.
+            Sytuacja może być ta sama. Ale to, <span className="font-medium text-slate-700">z jakiego miejsca w nią wchodzisz</span>, wpływa na to, co zauważasz, jak reagujesz i jakie decyzje podejmujesz.
           </p>
         </div>
 
-        <div className="my-12 md:my-16 py-10 md:py-12 border-y border-slate-200">
-          <p className="font-heading text-2xl md:text-4xl text-[#1E293B] font-medium leading-snug">
-            Nie chodzi o udawanie, że wszystko jest dobrze.
+        {/* 3. Wyróżnione zdanie o stanie i energii */}
+        <div className="my-16 md:my-24">
+          <p className="text-xl md:text-2xl font-medium text-[#1E293B] tracking-wide">
+            Dlatego w programie pracujemy również ze stanem i energią.
           </p>
         </div>
 
-        <div className="text-lg text-slate-600 leading-relaxed max-w-3xl">
+        {/* 4. Kolejny krótki akapit (Body 2) */}
+        <div className="text-lg md:text-xl text-slate-600 font-light leading-relaxed max-w-3xl">
           <p>
-            Chodzi o poznawanie siebie w różnych stanach i sprawdzanie, z jakiego miejsca naprawdę chcesz żyć i tworzyć.
+            Poprzez oddech, ruch, medytację, uwagę, emocje i intencję uczysz się coraz lepiej zauważać, co dzieje się z Tobą w różnych momentach i doświadczać różnych sposobów powrotu do większego spokoju, przestrzeni, zaufania i otwartości.
           </p>
         </div>
+
+        {/* 5. Duży anchor */}
+        <div className="my-24 md:my-32 pt-16 md:pt-24 border-t border-slate-200">
+          <p className="font-heading text-3xl md:text-5xl lg:text-[52px] text-[#1E293B] font-normal leading-[1.2] md:leading-[1.15]">
+            Nie musisz cały czas czuć się dobrze.
+          </p>
+        </div>
+
+        {/* 6. Krótkie domknięcie */}
+        <div className="text-lg md:text-xl text-slate-600 font-light leading-relaxed max-w-3xl">
+          <p>
+            Lęk, złość, napięcie, zmęczenie czy zwątpienie również są częścią życia. Ważne jest to, żeby coraz lepiej znać siebie także w tych momentach i mieć więcej przestrzeni na wybór tego, z jakiego miejsca chcesz dalej żyć, działać i tworzyć.
+          </p>
+        </div>
+        
       </div>
     </section>
   );

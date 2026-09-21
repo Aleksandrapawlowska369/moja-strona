@@ -1,80 +1,85 @@
-import Link from 'next/link';
+import Image from 'next/image';
 
 export function About() {
   return (
-    <section id="o-przemyslawie" className="py-20 md:py-32 bg-[#F8FAFC]">
+    <section id="o-przemyslawie" className="pt-24 md:pt-32 pb-16 md:pb-20 bg-[#F8FAFC]">
       <div className="container mx-auto px-6 max-w-6xl">
-        <div className="flex flex-col lg:flex-row items-center gap-16">
+        
+        {/* MOBILE H2 & LABEL (Hidden on Desktop) */}
+        <div className="lg:hidden mb-10">
+          <h2 className="font-heading text-3xl md:text-5xl font-medium text-[#1E293B] leading-[1.15] mb-4">
+            Stworzyłem ten program po to, żeby Twoja droga nie musiała być tak trudna jak moja.
+          </h2>
+          <p className="text-xs md:text-sm text-[#C29B57] font-bold tracking-widest uppercase">
+            PRZEMYSŁAW KRUPSKI
+          </p>
+        </div>
+
+        <div className="flex flex-col lg:flex-row gap-16 lg:gap-24 items-start mb-16 md:mb-24">
           
-          <div className="w-full lg:w-[55%]">
-            <h2 className="text-3xl md:text-5xl font-bold text-[#1E293B] mb-4">
-              Poznaj swojego przewodnika
-            </h2>
-            <p className="text-2xl md:text-3xl font-bold text-[#3A84FF] mb-8">
-              Przemysław Krupski
-            </p>
-            
-            <div className="space-y-5 text-lg text-slate-600 leading-relaxed">
-              <p>
-                Przemysław prowadzi sesje indywidualne i pracuje z osobami, które chcą uwolnić się od utrwalonych schematów, odzyskać większy kontakt ze sobą i budować nową wersję siebie.
-              </p>
-              <p>
-                Tworzy programy, praktyki i inne produkty rozwojowe łączące pracę z umysłem, oddechem, ciałem i podświadomością.
-              </p>
-              <p>
-                Sam przez lata poznawał różne metody i szukał odpowiedzi na pytanie, dlaczego samo zrozumienie problemu nie zawsze prowadzi do rzeczywistej zmiany.
-              </p>
-              <p>
-                Dziś przekłada tę wiedzę i własne doświadczenie na uporządkowane procesy, w których teoria od razu spotyka się z praktyką.
-              </p>
-            </div>
-            
-            <div className="my-10 p-6 bg-white rounded-2xl shadow-sm border border-slate-200">
-              <p className="font-semibold text-[#1E293B] text-lg leading-snug">
-                Treści Przemysława o rozwoju świadomości i psychologii obserwuje ponad 250 000 osób w mediach społecznościowych.
-              </p>
-            </div>
-
-            <p className="text-lg text-slate-600 leading-relaxed mb-10 font-medium">
-              W programie nie otrzymujesz wyłącznie nagrań i życzenia powodzenia. Masz codzienne prowadzenie, regularne sesje Q&A i kolejne kroki ułożone w jeden spójny proces.
-            </p>
-            
-            <div className="w-full flex flex-col md:flex-row items-center md:items-start">
-              <Link 
-                href="https://kursy.przeistoczenie.pl/s/twoja-nowa-tozsamosc-90-dni.html" 
-                target="_blank"
-                className="flex items-center justify-center w-full md:w-auto py-4 px-8 text-white text-lg font-bold bg-gradient-to-r from-[#3A84FF] to-[#2563EB] rounded-[10px] hover:scale-105 transition-transform duration-300 shadow-[0_0_30px_rgba(58,132,255,0.4)] text-center"
-              >
-                DOŁĄCZAM DO PROGRAMU
-              </Link>
-            </div>
-          </div>
-
-          <div className="w-full max-w-sm mx-auto lg:mx-0 lg:w-[45%] relative">
-            {/* Delikatna poświata za zdjęciem */}
-            <div className="absolute inset-0 bg-gradient-to-tr from-[#3A84FF]/15 to-purple-500/15 blur-[60px] rounded-full pointer-events-none transform translate-y-4"></div>
-            
-            <div className="aspect-[4/5] w-full relative rounded-3xl overflow-hidden shadow-2xl z-10 bg-slate-100">
-              {/* Zdjęcie Przemka */}
-              <img 
+          {/* PHOTO COLUMN */}
+          <div className="w-full lg:w-[45%]">
+            <div className="aspect-[4/5] lg:aspect-[3/4] w-full relative rounded-xl overflow-hidden shadow-xl bg-slate-100">
+              <Image 
                 src="/przemek-krupski.jpeg" 
                 alt="Przemysław Krupski" 
-                className="absolute inset-0 w-full h-full object-cover object-top"
+                fill
+                className="object-cover object-top"
+                sizes="(max-width: 1024px) 100vw, 50vw"
               />
-              
-              {/* Delikatne przyciemnienie na dole dla czytelności tekstu */}
-              <div className="absolute inset-x-0 bottom-0 h-1/2 bg-gradient-to-t from-black/80 via-black/10 to-transparent"></div>
-              
-              <div className="absolute bottom-8 left-8 right-8 z-20">
-                <p className="text-white text-2xl font-bold mb-1 drop-shadow-md">Przemysław Krupski</p>
-                <p className="text-[#3A84FF] font-bold tracking-wider text-sm uppercase drop-shadow-md">Twórca i prowadzący program</p>
-              </div>
             </div>
           </div>
 
+          {/* TEXT COLUMN - PART 1 */}
+          <div className="w-full lg:w-[55%] flex flex-col">
+            
+            {/* DESKTOP H2 & LABEL (Hidden on Mobile) */}
+            <div className="hidden lg:block mb-12">
+              <h2 className="font-heading text-4xl lg:text-5xl font-medium text-[#1E293B] leading-[1.15] mb-4">
+                Stworzyłem ten program po to, żeby Twoja droga nie musiała być tak trudna jak moja.
+              </h2>
+              <p className="text-sm text-[#C29B57] font-bold tracking-widest uppercase">
+                PRZEMYSŁAW KRUPSKI
+              </p>
+            </div>
+            
+            <div className="text-lg text-slate-800 font-light leading-relaxed">
+              <p className="mb-8">
+                Przez lata pracowałem w kopalni 1200 metrów pod ziemią. Zostałem sztygarem i na swojej zmianie odpowiadałem za bezpieczeństwo 60 górników. Miałem pozycję, perspektywę awansu i coraz lepsze pieniądze. A jednak coraz mocniej czułem, że <span className="font-medium text-[#1E293B]">to nie jest życie, które chcę przeżyć.</span>
+              </p>
+              
+              <p className="mb-12">
+                Odejście nie zaprowadziło mnie od razu do wymarzonego życia. Po drodze były długi, komornicy, upadłość, okres bezdomności, różne prace, próby biznesowe, porażki i kolejne początki.
+              </p>
+              
+              <p className="text-xl md:text-2xl text-slate-800 font-medium leading-relaxed mt-12 md:mt-16">
+                Przez lata próbowałem zrozumieć, dlaczego można wiedzieć, jak chce się żyć, naprawdę chcieć zmiany, a mimo to w ważnych momentach wracać do tego, co było wcześniej.
+              </p>
+            </div>
+            
+          </div>
         </div>
+
+        {/* FULL WIDTH COLUMN - PART 2 */}
+        <div className="w-full max-w-4xl mx-auto">
+          <div className="text-lg text-slate-900 font-normal leading-relaxed mb-10 md:mb-12">
+            <p>
+              Nie znalazłem jednej techniki. Z czasem łączyłem pracę z podświadomością, oddechem, medytacją, ciałem i ruchem, emocjami, energią, świadomą kreacją i działaniem.
+            </p>
+          </div>
+          
+          <div>
+            <p className="text-xl md:text-2xl text-slate-800 font-medium leading-relaxed mb-10">
+              Z tej drogi powstało podejście, które dziś przekazuję dalej. Nie przejdę Twojej drogi za Ciebie. Mogę jednak dać Ci coś, czego mnie długo brakowało: <span className="text-[#1E293B]">kolejność, prowadzenie, różne sposoby pracy i regularny punkt powrotu.</span>
+            </p>
+            
+            <p className="text-lg text-slate-800 font-light leading-relaxed">
+              W prowadzeniu ważne są dla mnie spokój, radość, autentyczność i energia. Przez te 90 dni chcę nie tylko przekazywać Ci wiedzę, ale naprawdę Cię prowadzić, krok po kroku, przez kolejne etapy procesu.
+            </p>
+          </div>
+        </div>
+
       </div>
     </section>
   );
 }
-

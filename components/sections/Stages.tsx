@@ -17,7 +17,7 @@ export function Stages() {
     },
     {
       number: "ETAP 4",
-      title: "Integrować i zabierać dalej to, co naprawdę działa",
+      title: "Integrować i zabierać ze sobą to, co naprawdę działa",
       description: "Pragnienia, wizja, świadoma kreacja, własne dowody i praktyki, do których chcesz wracać."
     }
   ];
@@ -29,15 +29,15 @@ export function Stages() {
         {/* Intro */}
         <div className="text-left mb-16 md:mb-20">
           <h2 className="text-3xl md:text-5xl font-bold text-[#1E293B] mb-10 leading-tight">
-            Chciałem dać Ci wiele sposobów pracy, ale nie zostawić Cię z pytaniem: co mam teraz z tym wszystkim zrobić?
+            Chciałem dać Ci wiele sposobów pracy, ale nie chciałem zostawić Cię z pytaniem: co mam teraz z tym wszystkim zrobić?
           </h2>
           
           <div className="space-y-6 md:space-y-8 text-lg text-slate-600 leading-relaxed max-w-3xl">
             <p>
-              W programie nie tylko opowiadam o praktykach. Bardzo często prowadzę Cię przez nie od początku do końca, żeby można było naprawdę sprawdzić, co daje Ci oddech, ruch, medytacja, praca z przekonaniem, emocją czy stanem.
+              W programie nie tylko opowiadam o praktykach. Bardzo często prowadzę Cię przez nie od początku do końca, żeby można było naprawdę doświadczyć pracy z oddechem, ruchem, medytacją, przekonaniami, emocjami czy stanem.
             </p>
             <p>
-              Z czasem budujesz własny repertuar sposobów pracy, które znasz z doświadczenia, nie tylko z teorii. Nie oznacza to, że po 90 dniach w każdej sytuacji automatycznie wybierzesz idealną technikę. Oznacza, że masz więcej realnie poznanych sposobów powrotu do siebie.
+              Z czasem budujesz własny repertuar sposobów pracy, które znasz z doświadczenia, nie tylko z teorii. Nie chodzi o to, żeby po 90 dniach zawsze automatycznie wiedzieć, jakiej techniki potrzebujesz. Chodzi o to, żeby mieć więcej realnie poznanych sposobów powrotu do siebie.
             </p>
           </div>
         </div>
@@ -62,7 +62,7 @@ export function Stages() {
             {stages.map((stage, index) => (
               <div key={index} className="flex flex-col md:flex-row gap-2 md:gap-8 items-start">
                 <div className="shrink-0 w-24 md:pt-1">
-                  <span className="text-sm md:text-base font-bold text-[#3A84FF] tracking-wider">{stage.number}</span>
+                  <span className="text-sm md:text-base font-bold text-[#C29B57] tracking-wider">{stage.number}</span>
                 </div>
                 <div>
                   <h4 className="text-xl md:text-2xl font-bold text-[#1E293B] mb-3">
@@ -82,6 +82,17 @@ export function Stages() {
           <p className="text-lg text-slate-600 leading-relaxed max-w-3xl">
             To nie jest sztywny schemat zamykania tematów według kalendarza. To kierunek drogi, dzięki któremu nie dostajesz przypadkowej biblioteki materiałów.
           </p>
+
+          <div className="mt-12 md:mt-16">
+            {/* TODO: link to final program contents section anchor */}
+            <a 
+              href="#program-contents" 
+              className="inline-flex items-center justify-center px-6 py-3.5 md:px-8 md:py-4 bg-white border border-slate-200 shadow-sm text-sm md:text-base font-bold text-[#1E293B] hover:border-slate-300 hover:bg-slate-50 transition-all rounded-md tracking-wider uppercase group"
+            >
+              ZOBACZ, CO DOKŁADNIE CZEKA NA CIEBIE W PROGRAMIE 
+              <span className="ml-2 group-hover:translate-y-0.5 transition-transform">↓</span>
+            </a>
+          </div>
         </div>
 
       </div>
