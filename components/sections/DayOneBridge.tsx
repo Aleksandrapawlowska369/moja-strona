@@ -48,10 +48,6 @@ export function DayOneBridge() {
           <p className="text-xl md:text-2xl text-slate-900 font-normal mb-4">
             Masz 5 miesięcy dostępu, więc nie musisz przechodzić tej drogi idealnie dzień po dniu.
           </p>
-          
-          <p className="text-lg text-slate-800 font-normal leading-relaxed">
-            Jeśli chcesz dołączyć, poniżej wybierasz sposób płatności.
-          </p>
         </div>
 
       </div>

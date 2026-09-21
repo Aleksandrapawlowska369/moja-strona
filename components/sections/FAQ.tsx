@@ -34,12 +34,16 @@ const faqs = [
   {
     question: "Czy program zastępuje terapię?",
     answer: "Nie. „Twoja Nowa Tożsamość” jest programem rozwojowym, a nie terapią, diagnozą ani leczeniem.\n\nJeżeli jesteś obecnie w ostrym kryzysie albo potrzebujesz specjalistycznej pomocy, skorzystaj ze wsparcia psychologa, psychoterapeuty, psychiatry lub lekarza."
+  },
+  {
+    question: "Czy płatność miesięczna zobowiązuje mnie do wszystkich 3 płatności?",
+    answer: "Nie. Możesz zatrzymać kolejną płatność. Wtedy dostęp do programu wygasa. Jeśli zrealizujesz wszystkie 3 płatności, nie są pobierane żadne kolejne opłaty, a dostęp pozostaje aktywny do końca 5 miesięcy liczonych od pierwszej płatności."
   }
 ];
 
 export function FAQ() {
   return (
-    <section id="faq" className="py-20 md:py-32 bg-white">
+    <section id="faq" className="pt-12 md:pt-16 pb-20 md:pb-32 bg-white">
       <div className="container mx-auto px-6 max-w-3xl">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-5xl font-bold text-[#1E293B] mb-6">
