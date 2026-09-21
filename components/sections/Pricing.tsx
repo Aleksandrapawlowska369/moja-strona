@@ -64,8 +64,8 @@ export function Pricing() {
                 Old 30-day URL (https://kursy.przeistoczenie.pl/s/twoja-nowa-tozsamosc-30-dni.html) is NOT a monthly subscription and has been omitted to prevent errors. 
               */}
               <button
-                className="w-full py-4 px-6 rounded-xl border-2 border-slate-200 text-slate-600 font-bold text-center hover:border-[#3A84FF] hover:text-[#3A84FF] transition-colors block cursor-pointer"
-                onClick={(e) => { e.preventDefault(); alert('Link płatności miesięcznej w przygotowaniu.'); }}
+                disabled
+                className="w-full py-4 px-6 rounded-xl border-2 border-slate-200 bg-slate-50 text-slate-400 font-bold text-center cursor-not-allowed block opacity-80"
               >
                 WYBIERAM PŁATNOŚĆ MIESIĘCZNĄ | 597 ZŁ
               </button>
