@@ -6,14 +6,14 @@ export function DailyRhythm() {
         {/* H2 */}
         <div className="mb-20 md:mb-24 max-w-3xl">
           <h2 className="font-heading text-3xl md:text-5xl lg:text-6xl font-medium text-[#1E293B] leading-[1.15]">
-            Każdego dnia dostajesz kolejny krok, zamiast całej biblioteki do samodzielnego układania.
+            Każdego dnia wchodzisz w kolejny krok, zamiast samodzielnie układać sobie całą drogę.
           </h2>
         </div>
 
         {/* RYTM TYGODNIA */}
-        <div className="mb-24 md:mb-32">
+        <div className="mb-20 md:mb-28">
           <p className="text-lg md:text-xl text-slate-600 font-light leading-relaxed mb-12 md:mb-16">
-            Podstawowy rytm tygodnia jest prosty: pracę mindsetową przeplatam z praktyką, a 7. dzień zostawiam na introspekcję i integrację.
+            Podstawowy rytm tygodnia jest prosty: materiał mindsetowy przeplatam z prowadzoną praktyką, a co 7. dzień zostawiam na introspekcję i integrację.
           </p>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-y-10 md:gap-y-16 gap-x-8">
             
@@ -60,50 +60,35 @@ export function DailyRhythm() {
             </div>
 
           </div>
-          <p className="text-xs md:text-sm text-slate-400 font-light mt-12 md:mt-16">
-            Praktyki mogą mieć formę pracy z oddechem, połączenia oddechu z ruchem, medytacji lub autohipnozy.
-          </p>
         </div>
 
-        {/* FACTS STRIP & 3 BLOKI */}
+        {/* SENSE OF RHYTHM */}
         <div className="pt-16 md:pt-24 border-t border-slate-200 mb-16 md:mb-24">
-          
-          <div className="flex flex-wrap items-center gap-x-3 md:gap-x-5 gap-y-3 text-sm md:text-base font-medium text-[#1E293B] tracking-wide mb-16 md:mb-24">
-            <span>8–45 min</span>
-            <span className="text-[#C29B57] opacity-70">•</span>
-            <span>średnio ok. 30 min</span>
-            <span className="text-[#C29B57] opacity-70">•</span>
-            <span>39 materiałów mindsetowych</span>
-            <span className="text-[#C29B57] opacity-70">•</span>
-            <span>39 prowadzonych praktyk</span>
-          </div>
-
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-12 md:gap-16">
+          <div className="max-w-3xl">
+            <h3 className="font-heading text-2xl md:text-3xl lg:text-4xl text-[#1E293B] font-normal leading-[1.15] mb-8">
+              Po co właśnie taki rytm?
+            </h3>
             
-            <div className="flex flex-col">
-              <span className="text-xs font-bold text-[#C29B57] tracking-widest uppercase mb-4">Prowadzenie</span>
-              <p className="text-base md:text-lg text-slate-600 font-light leading-relaxed mb-4">
-                Nie musisz każdego dnia zastanawiać się, co teraz robić. Otrzymujesz kolejny krok i mail, który krótko wprowadza Cię w temat oraz podpowiada, czy warto przygotować zeszyt, miejsce do ruchu albo spokojniejsze warunki.
+            <div className="space-y-6 text-lg md:text-xl text-slate-600 font-light leading-relaxed mb-12 md:mb-16">
+              <p className="font-medium text-[#1E293B]">
+                Żeby wiedza nie zostawała tylko wiedzą.
               </p>
-              <p className="text-sm text-slate-400 font-medium leading-relaxed">
-                Mail przychodzi codziennie o tej samej godzinie i minucie, o której został uruchomiony Twój dostęp.
+              <p>
+                Jednego dnia coś zauważasz, rozumiesz albo patrzysz na siebie z nowej perspektywy. Następnego przechodzisz przez prowadzoną praktykę i sprawdzasz to w doświadczeniu.
               </p>
-            </div>
-
-            <div className="flex flex-col">
-              <span className="text-xs font-bold text-[#C29B57] tracking-widest uppercase mb-4">Integracja</span>
-              <p className="text-base md:text-lg text-slate-600 font-light leading-relaxed">
-                Co 7. dzień zatrzymujesz się i sprawdzasz, co naprawdę dzieje się w Twoim życiu. W 12 pełnych tygodniach masz 12 takich introspekcji, a po 90 dniach jeszcze jedną, końcową.
+              <p>
+                A co 7. dzień zatrzymujesz się i patrzysz, co naprawdę dzieje się w Twoim życiu.
               </p>
             </div>
-
-            <div className="flex flex-col">
-              <span className="text-xs font-bold text-[#C29B57] tracking-widest uppercase mb-4">Praktyka</span>
-              <p className="text-base md:text-lg text-slate-600 font-light leading-relaxed">
-                Nie tylko słyszysz o oddechu, ruchu, medytacji czy pracy ze stanem. Regularnie przechodzisz przez prowadzone doświadczenia i sprawdzasz je na sobie.
+            
+            <div className="space-y-6 text-lg md:text-xl text-slate-600 font-light leading-relaxed">
+              <p>
+                Praktyki mogą mieć formę pracy z oddechem, połączenia oddechu z ruchem, medytacji lub autohipnozy.
+              </p>
+              <p>
+                Materiały trwają od 8 do 45 minut, średnio około 30 minut.
               </p>
             </div>
-
           </div>
         </div>
 

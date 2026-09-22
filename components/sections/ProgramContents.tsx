@@ -18,11 +18,11 @@ export function ProgramContents() {
     },
     {
       title: "CODZIENNY MAIL",
-      description: "Przypomina o kolejnym kroku, krótko wprowadza w temat i podpowiada, czy warto przygotować zeszyt, miejsce do ruchu albo spokojniejsze warunki."
+      description: "Przypomina o kolejnym kroku, krótko wprowadza w temat i podpowiada, czy warto przygotować zeszyt, miejsce do ruchu albo spokojniejsze warunki.\n\nWiadomość przychodzi codziennie o tej samej godzinie i minucie, o której został uruchomiony Twój dostęp."
     },
     {
       title: "5 MIESIĘCY DOSTĘPU",
-      description: "Dodatkowa przestrzeń na zwykłe życie, powroty i ponowne korzystanie z ważnych praktyk."
+      description: "Od pierwszej płatności masz dodatkową przestrzeń na zwykłe życie, powroty i ponowne korzystanie z ważnych praktyk."
     }
   ];
 
