@@ -15,6 +15,7 @@ import { DayOneBridge } from '@/components/sections/DayOneBridge';
 import { Pricing } from '@/components/sections/Pricing';
 import { FAQ } from '@/components/sections/FAQ';
 import { FinalCTA } from '@/components/sections/FinalCTA';
+import { WebinarFallback } from '@/components/sections/WebinarFallback';
 
 export default function MarketingPage() {
   return (
@@ -36,6 +37,7 @@ export default function MarketingPage() {
       <Pricing />
       <FAQ />
       <FinalCTA />
+      <WebinarFallback />
     </>
   );
 }
