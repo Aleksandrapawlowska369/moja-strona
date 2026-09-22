@@ -16,10 +16,10 @@ export function Hero() {
           Twoja Nowa Tożsamość
         </span>
         
-        <h1 className="font-heading text-5xl md:text-6xl lg:text-7xl text-white font-medium tracking-tight leading-[1.15] mb-6 md:mb-8">
-          <span className="block md:inline">Wiesz, kim chcesz być.</span>
+        <h1 className="font-heading text-[clamp(2rem,8.4vw,3rem)] md:text-6xl lg:text-7xl text-white font-medium tracking-tight leading-[1.15] mb-6 md:mb-8">
+          <span className="block whitespace-nowrap md:inline md:whitespace-normal">Wiesz, kim chcesz być.</span>
           <br className="hidden md:block" />
-          <span className="block md:inline">Wiesz, jak chcesz żyć.</span>
+          <span className="block whitespace-nowrap md:inline md:whitespace-normal">Wiesz, jak chcesz żyć.</span>
         </h1>
         
         <p className="text-base md:text-xl text-slate-300 font-normal leading-relaxed mb-12 md:mb-16 max-w-2xl">
