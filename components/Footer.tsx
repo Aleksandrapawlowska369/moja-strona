@@ -37,11 +37,6 @@ export function Footer() {
                   Pełny proces 90 dni
                 </Link>
               </li>
-              <li>
-                <Link href="https://kursy.przeistoczenie.pl/s/twoja-nowa-tozsamosc-30-dni.html" target="_blank" rel="noopener noreferrer" className="text-sm text-slate-400 hover:text-[#3A84FF] transition-colors">
-                  Pakiet 30 dni
-                </Link>
-              </li>
             </ul>
           </div>
           

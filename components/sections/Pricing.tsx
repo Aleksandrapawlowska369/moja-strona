@@ -36,7 +36,7 @@ export function Pricing() {
                 target="_blank" 
                 className="w-full py-4 px-6 rounded-xl bg-[#3A84FF] text-white font-bold text-center hover:bg-blue-600 transition-colors mb-3 block text-sm md:text-base"
               >
-                ZACZYNAM SWÓJ DZIEŃ 1 | 1497 ZŁ
+                DOŁĄCZAM DO PEŁNEGO PROGRAMU | 1497 ZŁ
               </Link>
               <p className="text-sm text-slate-500 text-center">
                 W przeliczeniu na 90 dni procesu to około 17 zł dziennie.
