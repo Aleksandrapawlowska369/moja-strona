@@ -11,12 +11,44 @@ export function AfterProgram() {
         </h2>
 
         {/* BODY */}
-        <p className="text-lg md:text-xl text-slate-600 font-light leading-relaxed mb-20 md:mb-28">
-          Po tych 90 dniach nie chcę, żeby każda kolejna trudniejsza sytuacja wymagała mojego prowadzenia. Chcę, żeby zostały z Tobą praktyki, własne dowody, coraz lepsze rozpoznawanie swoich automatycznych reakcji, umiejętność wracania po potknięciu i sposoby pracy, które naprawdę znasz z własnego doświadczenia.
+        <p className="text-lg md:text-xl text-slate-600 font-light leading-relaxed mb-16 md:mb-20">
+          Po tych 90 dniach nie chcę, żeby każda kolejna trudniejsza sytuacja wymagała mojego prowadzenia. Zamiast tego zależy mi na tym, żeby po programie zostały z Tobą konkretne rzeczy:
         </p>
 
+        {/* 3 PUNKTY */}
+        <div className="space-y-12 md:space-y-16 mb-20 md:mb-28 max-w-2xl border-l border-slate-200 pl-6 md:pl-10 py-2">
+          
+          <div className="flex flex-col">
+            <span className="text-sm md:text-base font-bold text-[#C29B57] tracking-widest uppercase mb-2">
+              WŁASNE DOWODY
+            </span>
+            <span className="text-xl md:text-2xl text-[#1E293B] font-medium leading-relaxed">
+              że możesz reagować i działać inaczej
+            </span>
+          </div>
+
+          <div className="flex flex-col">
+            <span className="text-sm md:text-base font-bold text-[#C29B57] tracking-widest uppercase mb-2">
+              SPOSOBY POWROTU
+            </span>
+            <span className="text-xl md:text-2xl text-[#1E293B] font-medium leading-relaxed">
+              które znasz już z własnego doświadczenia
+            </span>
+          </div>
+
+          <div className="flex flex-col">
+            <span className="text-sm md:text-base font-bold text-[#C29B57] tracking-widest uppercase mb-2">
+              CORAZ LEPSZE ROZPOZNAWANIE SIEBIE
+            </span>
+            <span className="text-xl md:text-2xl text-[#1E293B] font-medium leading-relaxed">
+              również wtedy, kiedy pojawia się trudniejszy moment
+            </span>
+          </div>
+
+        </div>
+
         {/* TESTIMONIAL */}
-        <div className="mb-20 md:mb-28">
+        <div className="mb-20 md:mb-28 max-w-4xl">
           <p className="text-xs text-[#C29B57]/80 font-bold tracking-widest uppercase mb-6 md:mb-8">
             UCZESTNICZKA PO PROGRAMIE
           </p>

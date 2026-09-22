@@ -3,15 +3,37 @@ export function DayOneBridge() {
     <section className="pt-16 md:pt-20 pb-12 md:pb-16 bg-[#F8FAFC]">
       <div className="container mx-auto px-6 max-w-6xl">
         
-        <div className="max-w-3xl">
+        <div className="max-w-4xl mb-16 md:mb-24">
           {/* H2 */}
-          <h2 className="font-heading text-3xl md:text-5xl font-medium text-[#1E293B] leading-[1.15] mb-6">
+          <h2 className="font-heading text-3xl md:text-5xl font-medium text-[#1E293B] leading-[1.15] mb-16 md:mb-20">
             Dołączasz dziś. Jutro zaczyna się Twój Dzień 1.
           </h2>
           
+          {/* SEQUENCE */}
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12 mb-16 relative">
+            {/* Strzałka desktop */}
+            <div className="hidden md:block absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-slate-300">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M5 12H19M19 12L12 5M19 12L12 19" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+              </svg>
+            </div>
+            
+            <div className="flex flex-col pl-6 md:pl-10 border-l border-[#C29B57]/30">
+              <span className="text-xs font-bold text-[#C29B57] tracking-widest uppercase mb-2">DZISIAJ</span>
+              <span className="font-heading text-2xl md:text-3xl text-[#1E293B] font-medium mb-4">Dzień 0</span>
+              <span className="text-base md:text-lg text-slate-500 font-light">powitanie • pierwsze informacje • ankieta</span>
+            </div>
+
+            <div className="flex flex-col pl-6 md:pl-10 border-l border-[#C29B57]/30">
+              <span className="text-xs font-bold text-[#C29B57] tracking-widest uppercase mb-2">JUTRO</span>
+              <span className="font-heading text-2xl md:text-3xl text-[#1E293B] font-medium mb-4">Dzień 1</span>
+              <span className="text-base md:text-lg text-slate-500 font-light">zaczyna się Twój własny 90-dniowy rytm</span>
+            </div>
+          </div>
+          
           {/* BODY */}
-          <p className="text-lg md:text-xl text-slate-800 font-normal leading-relaxed mb-16 md:mb-20">
-            Po zakupie zaczynasz od Dnia 0: powitania, pierwszych informacji i ankiety, która pomaga Ci zatrzymać się przy miejscu, z którego zaczynasz. Następnego dnia rozpoczyna się Twój własny 90-dniowy rytm, a kolejne materiały pojawiają się po kolei.
+          <p className="text-xl md:text-2xl text-slate-700 font-normal leading-relaxed">
+            Zanim pojawi się pierwszy materiał, zatrzymujesz się przy trzech pytaniach, które ustawiają Twój punkt startu:
           </p>
         </div>
 

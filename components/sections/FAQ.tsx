@@ -63,7 +63,7 @@ export function FAQ() {
           {faqs.map((faq, index) => (
             <details 
               key={index}
-              open={index === 0}
+              open={false}
               className="group border border-slate-200 rounded-xl bg-white overflow-hidden transition-all"
             >
               <summary className="flex items-center justify-between font-bold text-[#1E293B] cursor-pointer p-6 list-none hover:bg-slate-50 focus:outline-none focus-visible:ring-2 focus-visible:ring-[#3A84FF] rounded-xl">

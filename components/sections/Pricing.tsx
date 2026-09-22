@@ -125,13 +125,16 @@ export function Pricing() {
             maksymalnie 3 płatności
           </p>
           
-          <p className="text-sm text-slate-500 mb-6 max-w-sm mx-auto">
+          <p className="text-sm text-slate-500 mb-2 max-w-sm mx-auto">
             Pierwsza płatność uruchamia dostęp. Następne płatności pobierane są co miesiąc, aż do maksymalnie 3 płatności łącznie.
+          </p>
+          <p className="text-xs text-slate-400 mb-8 max-w-sm mx-auto">
+            Przy 3 płatnościach łącznie: 1791 zł brutto.
           </p>
           
           <div className="w-full max-w-md mx-auto">
             {/* 
-              TODO: confirm monthly 597 PLN checkout URL. 
+              TODO: confirm monthly 597 PLN checkout URL before production. 
             */}
             <button
               disabled

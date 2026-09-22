@@ -23,7 +23,7 @@ export function Footer() {
               <li><Link href="#etapy" className="text-sm text-slate-400 hover:text-[#3A84FF] transition-colors">Jak działa program</Link></li>
               <li><Link href="#zawartosc" className="text-sm text-slate-400 hover:text-[#3A84FF] transition-colors">Co otrzymujesz</Link></li>
               <li><Link href="#opinie" className="text-sm text-slate-400 hover:text-[#3A84FF] transition-colors">Opinie uczestników</Link></li>
-              <li><Link href="#oferta" className="text-sm text-slate-400 hover:text-[#3A84FF] transition-colors">Inwestycja</Link></li>
+              <li><Link href="#pricing" className="text-sm text-slate-400 hover:text-[#3A84FF] transition-colors">Inwestycja</Link></li>
               <li><Link href="#faq" className="text-sm text-slate-400 hover:text-[#3A84FF] transition-colors">Najczęściej zadawane pytania</Link></li>
             </ul>
           </div>
