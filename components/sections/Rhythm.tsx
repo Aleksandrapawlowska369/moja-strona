@@ -22,7 +22,7 @@ export function Rhythm() {
           
           <div className="flex flex-col">
             <h3 className="text-sm md:text-base font-bold text-[#C29B57] tracking-widest uppercase mb-8 border-b border-slate-200 pb-4">
-              WCHODZĘ Z:
+              KIEDY WCHODZĘ Z:
             </h3>
             <div className="space-y-4 text-xl md:text-2xl text-slate-400 font-light">
               <p>napięcia</p>
@@ -33,12 +33,12 @@ export function Rhythm() {
 
           <div className="flex flex-col">
             <h3 className="text-sm md:text-base font-bold text-[#1E293B] tracking-widest uppercase mb-8 border-b border-slate-200 pb-4">
-              MOGĘ WEJŚĆ Z WIĘKSZYM:
+              KIEDY JEST WE MNIE WIĘCEJ:
             </h3>
             <div className="space-y-4 text-xl md:text-2xl text-[#1E293B] font-medium">
-              <p>spokojem</p>
-              <p>kontaktem ze sobą</p>
-              <p>miejscem na świadomą odpowiedź</p>
+              <p>spokoju</p>
+              <p>kontaktu ze sobą</p>
+              <p>przestrzeni na świadomą odpowiedź</p>
             </div>
           </div>
 

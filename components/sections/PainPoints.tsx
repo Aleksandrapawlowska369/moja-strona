@@ -60,7 +60,7 @@ export function PainPoints() {
 
         <DiscoveryLink 
           href="#pojemnosc" 
-          text="CO DZIEJE SIĘ POMIĘDZY „WIEM, JAK CHCĘ ŻYĆ” A TYM, CO ROBIĘ W TRUDNYM MOMENCIE?"
+          text="CO WŁAŚCIWIE DZIEJE SIĘ W TAKIM MOMENCIE?"
           theme="dark"
         />
 

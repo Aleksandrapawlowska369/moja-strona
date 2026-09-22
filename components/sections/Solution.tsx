@@ -9,7 +9,7 @@ export function Solution() {
             Co dzieje się pomiędzy „wiem, jak chcę żyć” a tym, co robię, kiedy robi się trudno?
           </h2>
           <p className="text-xl md:text-2xl text-slate-300 font-light leading-relaxed">
-            Możesz dokładnie wiedzieć, jak chcesz zareagować, a kiedy pojawia się lęk, napięcie, wstyd albo zmęczenie, mieć dużo mniejszy dostęp do tej odpowiedzi.
+            Możesz dokładnie wiedzieć, jak chcesz zareagować. Kiedy jednak pojawia się lęk, napięcie, wstyd albo zmęczenie, dostęp do tej odpowiedzi może być dużo mniejszy.
           </p>
         </div>
 
