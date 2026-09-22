@@ -14,7 +14,7 @@ export function AudienceFit() {
   ];
 
   return (
-    <section className="py-24 md:py-32 bg-white">
+    <section id="dla-kogo" className="py-24 md:py-32 bg-white">
       <div className="container mx-auto px-6 max-w-5xl">
         
         {/* H2 */}
