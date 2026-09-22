@@ -6,12 +6,12 @@ export function DayOneBridge() {
         <div className="max-w-3xl">
           {/* H2 */}
           <h2 className="font-heading text-3xl md:text-5xl font-medium text-[#1E293B] leading-[1.15] mb-6">
-            Zaczynasz wtedy, kiedy dołączasz. To jest Twój Dzień 1.
+            Dołączasz dziś. Jutro zaczyna się Twój Dzień 1.
           </h2>
           
           {/* BODY */}
           <p className="text-lg md:text-xl text-slate-800 font-normal leading-relaxed mb-16 md:mb-20">
-            Po dołączeniu zaczyna się Twój własny 90-dniowy rytm. Kolejne materiały pojawiają się po kolei, prowadząc Cię przez następne etapy procesu.
+            Po zakupie zaczynasz od Dnia 0: powitania, pierwszych informacji i ankiety, która pomaga Ci zatrzymać się przy miejscu, z którego zaczynasz. Następnego dnia rozpoczyna się Twój własny 90-dniowy rytm, a kolejne materiały pojawiają się po kolei.
           </p>
         </div>
 

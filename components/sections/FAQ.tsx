@@ -1,57 +1,62 @@
 const faqs = [
   {
-    question: "Kiedy mogę rozpocząć?",
-    answer: "Od razu po zakupie. Dzień zakupu staje się Twoim indywidualnym Dniem 1. Nie musisz czekać na poniedziałek, początek miesiąca ani wspólny start grupy."
+    question: "Mam już za sobą wiele metod i prób. Co tutaj jest inne?",
+    answer: "Nie będę Ci mówił, że wcześniejsze metody były bez sensu. Wiele z nich może być wartościowych. Ja po prostu nie chciałem budować tego programu wokół jednego sposobu pracy.\n\nPrzez 90 dni pracujemy z umysłem i przekonaniami, emocjami, podświadomością, ciałem, oddechem, ruchem, medytacją, autohipnozą, energią, relacją ze sobą i działaniem.\n\nI nie chodzi tylko o to, żeby o tych rzeczach słuchać. Bardzo często prowadzę Cię przez praktykę od początku do końca, żeby można było naprawdę sprawdzić, co dzieje się u Ciebie i jak dana forma pracy działa właśnie na Ciebie.\n\nDo ważnych tematów wracamy też na kolejnych etapach procesu. Nie po to, żeby w kółko robić to samo, ale dlatego, że inaczej patrzysz na siebie po tygodniu, inaczej po miesiącu, a jeszcze inaczej wtedy, kiedy dany temat spotyka Cię w prawdziwym życiu.\n\nRóżnica nie polega więc na jednej „sekretnej metodzie”. Chodzi o połączenie różnych sposobów pracy w jeden prowadzony proces i danie Ci czasu, żeby naprawdę ich doświadczyć i zobaczyć, jak spotykają się z Twoim własnym życiem."
   },
   {
-    question: "Ile czasu zajmują materiały?",
-    answer: "Większość materiałów zajmuje od kilku do około 30 minut. Każdego dnia otrzymujesz jeden kolejny materiał, dzięki czemu nie musisz samodzielnie wybierać, od czego zacząć."
+    question: "Co jeśli znowu zacznę z zapałem, a potem odpuszczę?",
+    answer: "Nie zakładam, że przez 90 dni wszystko pójdzie idealnie.\n\nProgram prowadzi Cię krok po kroku. Kolejne materiały pojawiają się po kolei, każdego dnia masz kolejny krok, a regularne introspekcje pomagają zatrzymać się i zobaczyć, gdzie jesteś.\n\nJeśli wypadniesz z rytmu, nie musisz zaczynać całego procesu od początku. Wracasz tam, gdzie jesteś.\n\nMasz 5 miesięcy dostępu, więc jest tu miejsce także na zwykłe życie, trudniejszy tydzień, przerwę i powrót.\n\nRegularność pomaga. Perfekcja nie jest warunkiem przejścia tego procesu."
   },
   {
-    question: "Co się stanie, jeśli ominę dzień?",
-    answer: "Nie tracisz materiału ani dostępu. Możesz wrócić do niego i kontynuować we własnym rytmie. Zarówno pełny program, jak i pakiet 30 dni są dostępne przez pięć miesięcy."
+    question: "Nie mam dużo czasu. Czy dam radę przejść ten program?",
+    answer: "Jednym z pierwszych tematów programu jest właśnie to, gdzie ucieka Twój czas i energia.\n\nCzasem naprawdę mamy bardzo mało przestrzeni. Czasem jednak część dnia znika w automatycznych czynnościach, rozproszeniu albo rzeczach mniej ważnych niż to, co ciągle odkładamy. Na początku programu przyglądamy się również temu.\n\nSame materiały trwają od 8 do 45 minut, średnio około 30 minut. Część materiałów mindsetowych możesz po prostu odsłuchać, na przykład podczas jazdy samochodem, a najważniejsze podsumowanie znajdziesz również w panelu.\n\nPraktyki mają różną długość w zależności od formy. Nie chodzi jednak o to, żeby każdego dnia wygospodarować dodatkową godzinę.\n\nBardziej o to, żeby świadomiej wybierać, na co naprawdę chcesz przeznaczać swój czas i energię."
   },
   {
-    question: "Czy mogę korzystać z programu na telefonie?",
-    answer: "Tak. Materiały są dostępne również w aplikacji Web To Learn Go, dlatego możesz korzystać z programu bez dostępu do komputera."
+    question: "Dlaczego ten proces trwa 90 dni?",
+    answer: "Bo nie zależy mi na tym, żeby przez kilka dni pojawił się przypływ motywacji, a potem wszystko wróciło do poprzedniego miejsca.\n\n90 dni daje zmianie czas spotkać się z prawdziwym życiem.\n\nW tym czasie zdąży pojawić się lepszy tydzień, gorszy dzień, stres, zwątpienie, potknięcie, powrót i sytuacje, w których możesz zobaczyć, jak naprawdę reagujesz.\n\nTo też wystarczająco dużo czasu, żeby przejść przez kolejne etapy procesu nie powierzchownie, ale na tyle głęboko, żeby coraz lepiej rozpoznawać swoje reakcje, sprawdzać różne sposoby pracy i widzieć, co rzeczywiście Ci służy.\n\nChodzi o to, żeby zmiana nie została tylko czymś, co rozumiesz podczas oglądania materiału. Z czasem możesz zacząć zauważać ją w swoich codziennych decyzjach, sposobie myślenia, reagowaniu i w tym, jak wracasz do siebie po trudniejszym momencie.\n\nNie traktuję 90 dni jak magicznej granicy, po której wszystko nagle jest inne. To po prostu wystarczająco długi fragment życia, żeby zmiana mogła zostać sprawdzona poza pierwszym zrywem i początkową motywacją."
   },
   {
-    question: "Czy sesje Q&A są nagrywane?",
-    answer: "Tak. Nagranie każdego spotkania Q&A pozostaje dostępne w panelu przez siedem dni. Uczestnicy pakietu 30 dni mogą korzystać z Q&A przez cały pięciomiesięczny okres dostępu."
+    question: "Dużo już wiem o rozwoju. Czy ten program nadal jest dla mnie?",
+    answer: "Tak. Nie stworzyłem tego programu po to, żeby przez 90 dni przekazywać Ci wyłącznie rzeczy, których jeszcze nie znasz.\n\nW rozwoju bardzo często nie chodzi już o kolejną informację. Możesz znać jakąś myśl od lat, a dopiero w konkretnej sytuacji zobaczyć, co naprawdę oznacza w Twoim własnym życiu.\n\nDlatego w programie nie kończymy na rozumieniu. Wracasz do ważnych tematów przez praktykę, introspekcję i własne doświadczenie. Sprawdzasz, jak ta wiedza wygląda wtedy, kiedy pojawia się trudna rozmowa, decyzja, lęk, stary automat albo moment, w którym łatwo wrócić do tego, co znane.\n\nJeśli masz już dużą wiedzę, ten proces może pomóc Ci ją uporządkować, pogłębić i przede wszystkim coraz częściej przekładać na codzienne życie.\n\nDużo ważniejsze od tego, ile już wiesz, jest to, czy masz gotowość naprawdę przyglądać się sobie, praktykować i sprawdzać w codziennym życiu to, z czym będziemy pracować."
   },
   {
-    question: "Czy podczas autohipnozy tracę kontrolę?",
-    answer: "Nie. Podczas praktyki zachowujesz świadomość, słyszysz prowadzenie i w dowolnym momencie możesz ją przerwać. Autohipnoza jest jedną z praktyk wykorzystywanych do pracy z wyobraźnią, przekonaniami i nowym obrazem siebie."
+    question: "Czy muszę wierzyć w energię, manifestację albo być osobą duchową?",
+    answer: "Nie. Nie musisz przyjmować żadnego przekonania tylko dlatego, że ja o nim mówię.\n\nW programie pojawiają się tematy energii, świadomej kreacji, medytacji czy autohipnozy, ale pracujemy też z przekonaniami, emocjami, podświadomością, ciałem, oddechem, ruchem, relacją ze sobą i działaniem.\n\nMożesz poznawać te perspektywy i praktyki, sprawdzać je na sobie i samodzielnie decydować, co jest Ci bliskie, a co nie.\n\nProgram nie jest oparty na dogmacie żadnej religii i nie jest wymierzony przeciwko żadnej z nich. Nie ma przekonywać Cię do określonej wiary ani od niej odciągać.\n\nJeżeli natomiast w ogóle nie chcesz mieć kontaktu z tematami energii czy duchowości, Twoja Nowa Tożsamość prawdopodobnie nie będzie dla Ciebie właściwym programem."
   },
   {
-    question: "Czy mogę kontynuować po zakupie pakietu 30 dni?",
-    answer: "Tak. Przed zakończeniem pierwszych 30 dni otrzymasz informację o możliwości dokupienia pozostałej części programu za 1097 zł brutto.\n\nWpłata za pakiet 30 dni nie jest odliczana od ceny kontynuacji. Przy aktualnych cenach regularnych pakiet 30 dni i późniejsza kontynuacja kosztują łącznie 1694 zł brutto, czyli o 197 zł więcej niż pełny proces 90 dni kupiony od razu."
-  },
-  {
-    question: "Czy pełny program można kupić na raty?",
-    answer: "Tak. Podczas zakupu możesz sprawdzić warianty ratalne oferowane przez Przelewy24 lub TubaPay. Ostateczne warunki, liczbę rat i koszt finansowania przedstawia operator płatności."
-  },
-  {
-    question: "Czy program zastępuje terapię?",
-    answer: "Nie. „Twoja Nowa Tożsamość” jest programem rozwojowym, a nie terapią, diagnozą ani leczeniem.\n\nJeżeli jesteś obecnie w ostrym kryzysie albo potrzebujesz specjalistycznej pomocy, skorzystaj ze wsparcia psychologa, psychoterapeuty, psychiatry lub lekarza."
+    question: "1497 zł to dla mnie za dużo na raz. Czy mogę rozłożyć płatność?",
+    answer: "Tak.\n\nPrzy zakupie pełnego programu możesz sprawdzić możliwość rozłożenia płatności przez TubaPay albo skorzystać z rat bankowych dostępnych w Przelewy24.\n\nAktualne warianty zobaczysz podczas zakupu. W przypadku rat bankowych ich liczba, wysokość i dostępność zależą od aktualnych warunków oraz decyzji banku."
   },
   {
     question: "Czy płatność miesięczna zobowiązuje mnie do wszystkich 3 płatności?",
-    answer: "Nie. Możesz zatrzymać kolejną płatność. Wtedy dostęp do programu wygasa. Jeśli zrealizujesz wszystkie 3 płatności, nie są pobierane żadne kolejne opłaty, a dostęp pozostaje aktywny do końca 5 miesięcy liczonych od pierwszej płatności."
+    answer: "Nie.\n\nMożesz zatrzymać kolejną płatność. Wtedy dostęp do programu wygasa.\n\nJeśli zrealizujesz wszystkie 3 płatności, nie są pobierane żadne kolejne opłaty, a dostęp pozostaje aktywny do końca 5 miesięcy liczonych od pierwszej płatności."
+  },
+  {
+    question: "Kiedy zaczynam i czy od razu dostaję wszystkie materiały?",
+    answer: "Po zakupie zaczynasz od Dnia 0. To moment na powitanie, pierwsze informacje i ankietę, która pomaga Ci zatrzymać się przy miejscu, z którego zaczynasz.\n\nDzień 1 rozpoczyna się następnego dnia.\n\nNie dostajesz od razu całej biblioteki materiałów. Kolejne elementy programu odkrywają się po kolei, zgodnie z zaplanowaną kolejnością. Dzięki temu nie musisz zastanawiać się, od czego zacząć i co robić dalej.\n\nZ programu możesz korzystać również w aplikacji mobilnej, więc masz do niego wygodny dostęp także poza komputerem."
+  },
+  {
+    question: "Co jeśli nie mogę być na Q&A na żywo?",
+    answer: "Q&A odbywają się mniej więcej co 3 do 4 tygodnie. To przestrzeń na pytania, dodatkową perspektywę i wspólną praktykę.\n\nJeśli nie możesz być na żywo, nagranie całego Q&A wraz ze wspólną praktyką jest dostępne w panelu przez 7 dni."
+  },
+  {
+    question: "Czy podczas autohipnozy tracę kontrolę?",
+    answer: "Nie.\n\nAutohipnoza w programie jest prowadzoną praktyką. Zachowujesz świadomość i w każdej chwili możesz ją przerwać."
+  },
+  {
+    question: "Czy program zastępuje terapię?",
+    answer: "Nie.\n\nTwoja Nowa Tożsamość jest programem rozwojowym. Nie zastępuje terapii, diagnozy ani leczenia."
   }
 ];
 
 export function FAQ() {
   return (
-    <section id="faq" className="pt-12 md:pt-16 pb-20 md:pb-32 bg-white">
+    <section id="faq" className="pt-12 md:pt-16 pb-12 md:pb-16 bg-white">
       <div className="container mx-auto px-6 max-w-3xl">
         <div className="text-center mb-16">
-          <h2 className="text-3xl md:text-5xl font-bold text-[#1E293B] mb-6">
-            Najczęściej zadawane pytania
+          <h2 className="text-3xl md:text-4xl font-bold text-[#1E293B]">
+            Zanim dołączysz, chcę odpowiedzieć na kilka ważnych pytań.
           </h2>
-          <p className="text-lg text-slate-600">
-            Masz wątpliwości? Sprawdź najważniejsze informacje przed rozpoczęciem programu.
-          </p>
         </div>
 
         <div className="space-y-4">
@@ -59,15 +64,20 @@ export function FAQ() {
             <details 
               key={index}
               open={index === 0}
-              className="group border border-slate-200 rounded-xl bg-white overflow-hidden open:ring-2 open:ring-[#3A84FF] open:border-[#3A84FF] transition-all"
+              className="group border border-slate-200 rounded-xl bg-white overflow-hidden transition-all"
             >
-              <summary className="flex items-center justify-between font-bold text-[#1E293B] cursor-pointer p-6 list-none hover:bg-slate-50">
-                <span className="pr-4">{faq.question}</span>
-                <span className="transition group-open:rotate-180 shrink-0">
+              <summary className="flex items-center justify-between font-bold text-[#1E293B] cursor-pointer p-6 list-none hover:bg-slate-50 focus:outline-none focus-visible:ring-2 focus-visible:ring-[#3A84FF] rounded-xl">
+                <div className="flex items-start gap-4 pr-4">
+                  <span className="text-[#C29B57]/80 font-medium shrink-0 mt-[1px]">
+                    {String(index + 1).padStart(2, '0')}
+                  </span>
+                  <span>{faq.question}</span>
+                </div>
+                <span className="transition group-open:rotate-180 shrink-0 ml-2">
                   <svg fill="none" height="24" shapeRendering="geometricPrecision" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" viewBox="0 0 24 24" width="24"><path d="M6 9l6 6 6-6"></path></svg>
                 </span>
               </summary>
-              <div className="text-slate-600 p-6 pt-0 leading-relaxed border-t border-slate-100 whitespace-pre-wrap">
+              <div className="text-slate-700 p-6 pt-0 leading-relaxed border-t border-slate-100 whitespace-pre-wrap">
                 {faq.answer}
               </div>
             </details>
