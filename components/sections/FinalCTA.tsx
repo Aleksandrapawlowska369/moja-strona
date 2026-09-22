@@ -32,11 +32,11 @@ export function FinalCTA() {
             target="_blank"
             className="flex items-center justify-center w-full py-4 px-4 sm:px-8 text-white text-[15px] sm:text-base md:text-lg font-bold bg-gradient-to-r from-[#3A84FF] to-[#2563EB] rounded-[10px] hover:scale-105 transition-transform duration-300 shadow-[0_0_20px_rgba(58,132,255,0.25)] mb-6 text-center leading-snug"
           >
-            DOŁĄCZAM DO PEŁNEGO PROGRAMU | 1497 ZŁ
+            DOŁĄCZAM DO PEŁNEGO PROGRAMU
           </Link>
           
           <p className="text-sm md:text-base text-slate-400">
-            90 dni procesu • 5 miesięcy dostępu
+            90 dni procesu • 597 zł miesięcznie lub 1497 zł jednorazowo • 5 miesięcy dostępu
           </p>
         </div>
       </div>

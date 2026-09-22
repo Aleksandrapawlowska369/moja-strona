@@ -31,13 +31,6 @@ export function Pricing() {
             </p>
             
             <div className="w-full max-w-md mx-auto">
-              <Link 
-                href="https://kursy.przeistoczenie.pl/s/twoja-nowa-tozsamosc-90-dni.html" 
-                target="_blank" 
-                className="w-full py-4 px-6 rounded-xl bg-[#3A84FF] text-white font-bold text-center hover:bg-blue-600 transition-colors mb-3 block text-sm md:text-base"
-              >
-                DOŁĄCZAM DO PEŁNEGO PROGRAMU | 1497 ZŁ
-              </Link>
               <p className="text-sm text-slate-500 text-center">
                 W przeliczeniu na 90 dni procesu to około 17 zł dziennie.
               </p>
@@ -128,21 +121,23 @@ export function Pricing() {
           <p className="text-sm text-slate-500 mb-2 max-w-sm mx-auto">
             Pierwsza płatność uruchamia dostęp. Następne płatności pobierane są co miesiąc, aż do maksymalnie 3 płatności łącznie.
           </p>
-          <p className="text-xs text-slate-400 mb-8 max-w-sm mx-auto">
+          <p className="text-xs text-slate-400 max-w-sm mx-auto">
             Przy 3 płatnościach łącznie: 1791 zł brutto.
           </p>
-          
-          <div className="w-full max-w-md mx-auto">
-            {/* 
-              TODO: confirm monthly 597 PLN checkout URL before production. 
-            */}
-            <button
-              disabled
-              className="w-full py-4 px-6 rounded-xl border border-slate-300 bg-slate-50 text-slate-500 font-bold text-center cursor-not-allowed block text-sm md:text-base"
-            >
-              WYBIERAM PŁATNOŚĆ MIESIĘCZNĄ | 597 ZŁ
-            </button>
-          </div>
+        </div>
+
+        {/* F. Unified Checkout CTA */}
+        <div className="max-w-2xl mx-auto mt-12">
+          <Link 
+            href="https://kursy.przeistoczenie.pl/s/twoja-nowa-tozsamosc-90-dni.html" 
+            target="_blank" 
+            className="w-full py-4 px-6 rounded-xl bg-[#3A84FF] text-white font-bold text-center hover:bg-blue-600 transition-colors mb-4 block text-base md:text-lg"
+          >
+            WYBIERAM SPOSÓB PŁATNOŚCI I DOŁĄCZAM
+          </Link>
+          <p className="text-sm md:text-base text-slate-500 text-center">
+            Po kliknięciu wybierzesz płatność jednorazową 1497 zł albo miesięczną 597 zł, maksymalnie 3 płatności.
+          </p>
         </div>
 
       </div>
