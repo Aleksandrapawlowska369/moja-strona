@@ -1,3 +1,5 @@
+import { DiscoveryLink } from '../DiscoveryLink';
+
 export function Testimonials() {
   return (
     <section id="opinie" className="relative py-20 md:py-32 bg-gradient-to-b from-[#0F172A] to-[#1e1b4b] overflow-hidden border-t border-white/10">
@@ -44,6 +46,13 @@ export function Testimonials() {
             </p>
           </div>
         </div>
+
+        <DiscoveryLink 
+          href="#codziennosc" 
+          text="JAK TAKI PROCES WYGLĄDA W ZWYKŁYM TYGODNIU?"
+          theme="light"
+        />
+
       </div>
     </section>
   );

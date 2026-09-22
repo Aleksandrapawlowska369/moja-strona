@@ -1,3 +1,5 @@
+import { DiscoveryLink } from '../DiscoveryLink';
+
 export function AfterProgram() {
   return (
     <section className="py-24 md:py-32 bg-white">
@@ -26,10 +28,18 @@ export function AfterProgram() {
         </div>
 
         {/* DOMKNIĘCIE */}
-        <div className="pt-4 md:pt-8 pb-12 md:pb-20">
+        <div className="pt-4 md:pt-8 pb-8">
           <p className="font-heading text-xl md:text-3xl text-[#1E293B] font-normal leading-snug">
             Przez 90 dni prowadzę Cię przez doświadczenie. Potem chcę, żeby to, co naprawdę Ci służy, zostało z Tobą i coraz bardziej stawało się częścią Twojego własnego życia.
           </p>
+        </div>
+
+        <div className="w-full">
+          <DiscoveryLink 
+            href="#o-przemyslawie" 
+            text="DLACZEGO WŁAŚNIE TAK ZBUDOWAŁEM TEN PROGRAM?"
+            theme="dark"
+          />
         </div>
 
       </div>

@@ -1,3 +1,5 @@
+import { DiscoveryLink } from '../DiscoveryLink';
+
 export function PainPoints() {
   return (
     <section id="termostat" className="py-24 md:py-32 bg-[#F8FAFC]">
@@ -55,6 +57,12 @@ export function PainPoints() {
             Nowa tożsamość nie jest maską. To jednocześnie rozwijanie nowych sposobów reagowania i wracanie do tego, co naprawdę Twoje.
           </p>
         </div>
+
+        <DiscoveryLink 
+          href="#pojemnosc" 
+          text="CO DZIEJE SIĘ POMIĘDZY „WIEM, JAK CHCĘ ŻYĆ” A TYM, CO ROBIĘ W TRUDNYM MOMENCIE?"
+          theme="dark"
+        />
 
       </div>
     </section>
