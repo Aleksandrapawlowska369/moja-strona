@@ -15,8 +15,8 @@ export function Pricing() {
           </p>
         </div>
 
-        {/* B & C. Primary 1497 offer + Financing inside */}
-        <div className="bg-white rounded-2xl border border-slate-200 shadow-xl overflow-hidden mb-4">
+        {/* B & C. Primary 1497 offer */}
+        <div className="bg-white rounded-2xl border border-slate-200 shadow-xl overflow-hidden mb-8 md:mb-12">
           {/* Primary Top Section */}
           <div className="p-8 md:p-12 flex flex-col md:items-center md:text-center relative">
             <p className="text-xs md:text-sm font-bold text-[#C29B57] tracking-widest uppercase mb-4">
@@ -36,12 +36,60 @@ export function Pricing() {
               </p>
             </div>
           </div>
+        </div>
 
-          {/* Financing Section */}
-          <div className="bg-slate-50 border-t border-slate-100 p-8 md:p-12">
+        {/* E. Secondary Monthly Option */}
+        <div className="max-w-3xl mx-auto bg-white rounded-2xl p-6 md:p-10 border border-slate-200 flex flex-col md:items-center md:text-center">
+          <div className="mb-6">
+            <h3 className="text-xl md:text-2xl font-bold text-[#1E293B] mb-2">
+              Wolisz płacić miesiąc po miesiącu?
+            </h3>
+            <p className="text-slate-600">
+              Możesz też wybrać elastyczną płatność miesięczną.
+            </p>
+          </div>
+
+          <p className="text-xs md:text-sm font-bold text-slate-400 tracking-widest uppercase mb-3">
+            PŁATNOŚĆ MIESIĘCZNA
+          </p>
+          
+          <div className="mb-2">
+            <span className="text-4xl md:text-5xl font-heading text-[#1E293B]">597 zł</span>
+            <span className="text-lg text-slate-500 font-normal ml-2">/ miesiąc</span>
+          </div>
+          
+          <p className="text-slate-600 mb-6 pb-6 border-b border-slate-100 max-w-xs mx-auto w-full">
+            maksymalnie 3 płatności
+          </p>
+          
+          <p className="text-sm text-slate-500 mb-2 max-w-sm mx-auto">
+            Pierwsza płatność uruchamia dostęp. Następne płatności pobierane są co miesiąc, aż do maksymalnie 3 płatności łącznie.
+          </p>
+          <p className="text-xs text-slate-400 max-w-sm mx-auto">
+            Przy 3 płatnościach łącznie: 1791 zł brutto.
+          </p>
+        </div>
+
+        {/* F. Unified Checkout CTA */}
+        <div className="max-w-2xl mx-auto mt-12 mb-16 md:mb-24">
+          <Link 
+            href="https://kursy.przeistoczenie.pl/s/twoja-nowa-tozsamosc-90-dni.html" 
+            target="_blank" 
+            className="w-full py-4 px-6 rounded-xl bg-[#3A84FF] text-white font-bold text-center hover:bg-blue-600 transition-colors mb-4 block text-base md:text-lg"
+          >
+            WYBIERAM SPOSÓB PŁATNOŚCI I DOŁĄCZAM
+          </Link>
+          <p className="text-sm md:text-base text-slate-500 text-center">
+            Po kliknięciu wybierzesz płatność jednorazową 1497 zł albo miesięczną 597 zł, maksymalnie 3 płatności.
+          </p>
+        </div>
+
+        {/* G. Financing Section (moved) */}
+        <div className="max-w-3xl mx-auto bg-slate-50 rounded-2xl border border-slate-200 overflow-hidden mb-8">
+          <div className="p-8 md:p-12">
             <div className="text-center mb-8">
-              <h3 className="text-xl font-bold text-[#1E293B] mb-2">
-                Chcesz rozłożyć 1497 zł na raty?
+              <h3 className="text-xl md:text-2xl font-bold text-[#1E293B] mb-4">
+                Wolisz zapłacić 1497 zł jednorazowo, ale rozłożyć tę kwotę na raty?
               </h3>
               <p className="text-slate-600">
                 Przy zakupie możesz sprawdzić dostępne możliwości rozłożenia płatności.
@@ -84,60 +132,14 @@ export function Pricing() {
                 </p>
               </div>
             </div>
+            
+            {/* Other checkout methods */}
+            <div className="text-center pt-8 border-t border-slate-200">
+              <p className="text-sm text-slate-500">
+                Przy płatności możesz również wybrać m.in. BLIK, szybki przelew, PayPal lub PayPo, jeśli dana metoda jest dostępna dla tego zakupu.
+              </p>
+            </div>
           </div>
-        </div>
-
-        {/* Other checkout methods */}
-        <div className="text-center mb-8 md:mb-12">
-          <p className="text-sm text-slate-500">
-            Przy płatności możesz również wybrać m.in. BLIK, szybki przelew, PayPal lub PayPo, jeśli dana metoda jest dostępna dla tego zakupu.
-          </p>
-        </div>
-
-        {/* E. Secondary Monthly Option */}
-        <div className="max-w-3xl mx-auto bg-white rounded-2xl p-6 md:p-10 border border-slate-200 flex flex-col md:items-center md:text-center">
-          <div className="mb-6">
-            <h3 className="text-xl md:text-2xl font-bold text-[#1E293B] mb-2">
-              Wolisz płacić miesiąc po miesiącu?
-            </h3>
-            <p className="text-slate-600">
-              Możesz też wybrać elastyczną płatność miesięczną.
-            </p>
-          </div>
-
-          <p className="text-xs md:text-sm font-bold text-slate-400 tracking-widest uppercase mb-3">
-            PŁATNOŚĆ MIESIĘCZNA
-          </p>
-          
-          <div className="mb-2">
-            <span className="text-4xl md:text-5xl font-heading text-[#1E293B]">597 zł</span>
-            <span className="text-lg text-slate-500 font-normal ml-2">/ miesiąc</span>
-          </div>
-          
-          <p className="text-slate-600 mb-6 pb-6 border-b border-slate-100 max-w-xs mx-auto w-full">
-            maksymalnie 3 płatności
-          </p>
-          
-          <p className="text-sm text-slate-500 mb-2 max-w-sm mx-auto">
-            Pierwsza płatność uruchamia dostęp. Następne płatności pobierane są co miesiąc, aż do maksymalnie 3 płatności łącznie.
-          </p>
-          <p className="text-xs text-slate-400 max-w-sm mx-auto">
-            Przy 3 płatnościach łącznie: 1791 zł brutto.
-          </p>
-        </div>
-
-        {/* F. Unified Checkout CTA */}
-        <div className="max-w-2xl mx-auto mt-12">
-          <Link 
-            href="https://kursy.przeistoczenie.pl/s/twoja-nowa-tozsamosc-90-dni.html" 
-            target="_blank" 
-            className="w-full py-4 px-6 rounded-xl bg-[#3A84FF] text-white font-bold text-center hover:bg-blue-600 transition-colors mb-4 block text-base md:text-lg"
-          >
-            WYBIERAM SPOSÓB PŁATNOŚCI I DOŁĄCZAM
-          </Link>
-          <p className="text-sm md:text-base text-slate-500 text-center">
-            Po kliknięciu wybierzesz płatność jednorazową 1497 zł albo miesięczną 597 zł, maksymalnie 3 płatności.
-          </p>
         </div>
 
       </div>
