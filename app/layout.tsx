@@ -15,6 +15,7 @@ const cormorant = Cormorant_Garamond({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://tnt.przeistoczenie.pl"),
   title: "Twoja Nowa Tożsamość | 90-dniowy program zmiany",
   description: "90-dniowy program Przemysława Krupskiego: praca z reakcjami, emocjami, ciałem i tożsamością, aby wprowadzać zmianę krok po kroku.",
   openGraph: {
