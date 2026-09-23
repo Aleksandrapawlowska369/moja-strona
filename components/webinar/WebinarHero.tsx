@@ -9,15 +9,16 @@ export function WebinarHero() {
         <div className="absolute bottom-1/3 right-1/3 w-72 h-72 bg-pink-500 rounded-full mix-blend-screen filter blur-[100px] opacity-40"></div>
       </div>
       
-      <div className="container mx-auto px-5 md:px-8 relative z-10 max-w-4xl text-center flex flex-col items-center">
+      <div className="container mx-auto px-5 md:px-8 relative z-10 max-w-[1200px] text-center flex flex-col items-center">
         
         {/* Eyebrow & H1 */}
-        <div className="space-y-6 md:space-y-8">
+        <div className="space-y-6 md:space-y-8 w-full">
           <span className="inline-block text-primary font-sans font-semibold tracking-widest text-xs uppercase">
             Świadoma kreacja w prawdziwym życiu
           </span>
           <h1 className="text-4xl md:text-5xl lg:text-6xl xl:text-[4rem] leading-[1.15] font-heading font-medium text-text-light text-balance mx-auto">
-            Jak naprawdę chcesz żyć? I dlaczego mimo prób wciąż jeszcze tak nie żyjesz?
+            <span className="block">Jak naprawdę chcesz żyć?</span>
+            <span className="block">I dlaczego mimo prób wciąż jeszcze tak nie żyjesz?</span>
           </h1>
         </div>
 
