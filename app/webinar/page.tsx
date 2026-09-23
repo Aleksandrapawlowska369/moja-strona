@@ -7,6 +7,7 @@ import { WebinarCommitment } from '@/components/webinar/WebinarCommitment';
 import { WebinarAbout } from '@/components/webinar/WebinarAbout';
 import { WebinarFinalInvitation } from '@/components/webinar/WebinarFinalInvitation';
 import { WebinarFaq } from '@/components/webinar/WebinarFaq';
+import { WebinarFooter } from '@/components/webinar/WebinarFooter';
 
 export const metadata = {
   title: 'Webinar - Przeistoczenie',
@@ -14,7 +15,7 @@ export const metadata = {
 
 export default function WebinarPage() {
   return (
-    <main className="min-h-screen bg-background">
+    <main className="min-h-screen bg-background flex flex-col">
       <WebinarHero />
       <WebinarRecognition />
       <WebinarRegistration />
@@ -24,6 +25,7 @@ export default function WebinarPage() {
       <WebinarAbout />
       <WebinarFinalInvitation />
       <WebinarFaq />
+      <WebinarFooter />
     </main>
   );
 }
