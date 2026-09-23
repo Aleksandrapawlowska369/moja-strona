@@ -1,8 +1,13 @@
 export function WebinarHero() {
   return (
     <section className="relative pt-24 pb-16 lg:pt-32 lg:pb-24 overflow-hidden bg-background">
-      {/* Background Effects */}
-      <div className="absolute top-[-20%] left-[50%] -translate-x-1/2 w-[80%] h-[80%] bg-primary/10 blur-[120px] rounded-full pointer-events-none" />
+      {/* Background Effects (TNT Mesh) */}
+      <div className="absolute inset-0 z-0 pointer-events-none">
+        <div className="absolute top-1/4 left-1/4 w-96 h-96 bg-purple-600 rounded-full mix-blend-screen filter blur-[120px] opacity-70 animate-pulse"></div>
+        <div className="absolute top-1/3 right-1/4 w-96 h-96 bg-blue-500 rounded-full mix-blend-screen filter blur-[120px] opacity-60"></div>
+        <div className="absolute bottom-1/4 left-1/3 w-80 h-80 bg-orange-500 rounded-full mix-blend-screen filter blur-[100px] opacity-50"></div>
+        <div className="absolute bottom-1/3 right-1/3 w-72 h-72 bg-pink-500 rounded-full mix-blend-screen filter blur-[100px] opacity-40"></div>
+      </div>
       
       <div className="container mx-auto px-5 md:px-8 relative z-10 max-w-4xl text-center flex flex-col items-center">
         

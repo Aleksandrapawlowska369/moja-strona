@@ -47,7 +47,7 @@ export function WebinarAbout() {
               </p>
               
               {/* CENTRAL QUESTION / ANCHOR STATEMENT */}
-              <div className="my-10 pl-6 border-l-2 border-primary/60">
+              <div className="my-10 pl-6 md:pl-10">
                 <p className="text-2xl md:text-3xl font-heading font-medium text-slate-900 leading-snug">
                   Najważniejsze pytanie brzmi jednak: czy potrafisz z tej wiedzy skorzystać wtedy, kiedy naprawdę jej potrzebujesz?
                 </p>
