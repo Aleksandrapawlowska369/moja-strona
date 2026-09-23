@@ -6,6 +6,7 @@ import { WebinarExperience } from '@/components/webinar/WebinarExperience';
 import { WebinarCommitment } from '@/components/webinar/WebinarCommitment';
 import { WebinarAbout } from '@/components/webinar/WebinarAbout';
 import { WebinarFinalInvitation } from '@/components/webinar/WebinarFinalInvitation';
+import { WebinarFaq } from '@/components/webinar/WebinarFaq';
 
 export const metadata = {
   title: 'Webinar - Przeistoczenie',
@@ -22,6 +23,7 @@ export default function WebinarPage() {
       <WebinarCommitment />
       <WebinarAbout />
       <WebinarFinalInvitation />
+      <WebinarFaq />
     </main>
   );
 }
