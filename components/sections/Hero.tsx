@@ -22,8 +22,12 @@ export function Hero() {
           <span className="block whitespace-nowrap md:inline md:whitespace-normal">Wiesz, jak chcesz żyć.</span>
         </h1>
         
-        <p className="text-base md:text-xl text-slate-300 font-normal leading-relaxed mb-12 md:mb-16 max-w-2xl">
+        <p className="text-base md:text-xl text-slate-300 font-normal leading-relaxed mb-8 md:mb-10 max-w-2xl">
           Dlaczego więc w codziennych sytuacjach tak łatwo wracasz do starych reakcji, decyzji i sposobu działania?
+        </p>
+        
+        <p className="text-sm md:text-base text-slate-400 font-light leading-relaxed mb-12 md:mb-16 max-w-3xl px-4 md:px-0">
+          Twoja Nowa Tożsamość to 90-dniowy prowadzony proces, który łączy pracę wewnętrzną, praktykę i codzienne działanie, żeby zmiana nie kończyła się na tym, co rozumiesz, ale coraz częściej pojawiała się w tym, jak naprawdę żyjesz.
         </p>
         
         <div className="w-full flex flex-col items-center">

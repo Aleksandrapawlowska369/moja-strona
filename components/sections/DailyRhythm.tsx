@@ -69,10 +69,11 @@ export function DailyRhythm() {
               Po co właśnie taki rytm?
             </h3>
             
+            <p className="font-heading text-xl md:text-2xl text-[#1E293B] font-medium leading-snug mb-8 md:mb-10 max-w-2xl">
+              Żeby wiedza nie zostawała tylko wiedzą.
+            </p>
+            
             <div className="space-y-6 text-lg md:text-xl text-slate-600 font-light leading-relaxed mb-12 md:mb-16">
-              <p className="font-medium text-[#1E293B]">
-                Żeby wiedza nie zostawała tylko wiedzą.
-              </p>
               <p>
                 Jednego dnia coś zauważasz, rozumiesz albo patrzysz na siebie z nowej perspektywy. Następnego przechodzisz przez prowadzoną praktykę i sprawdzasz to w doświadczeniu.
               </p>
