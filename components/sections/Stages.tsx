@@ -43,11 +43,11 @@ export function Stages() {
         </div>
 
         {/* Testimonial */}
-        <div className="mb-20 md:mb-28 pl-6 md:pl-10 border-l-[3px] border-[#3A84FF]/30 py-2">
-          <p className="font-heading text-2xl md:text-3xl text-[#1E293B] font-medium leading-snug italic mb-6">
+        <div className="mb-24 md:mb-32 pl-6 md:pl-10 border-l-[3px] border-[#3A84FF]/40 py-4 max-w-3xl">
+          <p className="font-heading text-[clamp(1.25rem,3.5vw,1.75rem)] text-[#1E293B] font-medium leading-[1.4] italic mb-8">
             „Najważniejsza była dla mnie praktyka, a przede wszystkim to, że nie tylko opowiadałeś o tym, na czym dana praktyka polega, ale przede wszystkim prowadziłeś przez tę praktykę od początku do końca. Mogłam razem z Tobą wejść w daną praktykę, robić ją razem z Tobą, przechodząc przez cały proces krok po kroku.”
           </p>
-          <p className="text-sm md:text-base text-slate-500 font-medium">
+          <p className="text-sm md:text-base text-slate-500 font-bold uppercase tracking-widest">
             uczestniczka po pełnych 90 dniach programu
           </p>
         </div>
@@ -83,7 +83,45 @@ export function Stages() {
             To nie jest sztywny schemat zamykania tematów według kalendarza. To kierunek drogi, dzięki któremu nie dostajesz przypadkowej biblioteki materiałów.
           </p>
 
-          <div className="mt-12 md:mt-16">
+          {/* PRODUCT SNAPSHOT */}
+          <div className="mt-16 md:mt-20 pt-12 border-t border-slate-100/60 max-w-4xl">
+            <p className="text-xs md:text-sm font-bold text-[#C29B57] uppercase tracking-widest mb-10">
+              W praktyce ten proces obejmuje:
+            </p>
+            
+            <div className="grid grid-cols-2 md:grid-cols-3 gap-y-10 md:gap-y-12 gap-x-8 mb-10">
+              <div className="flex flex-col">
+                <span className="font-heading text-4xl md:text-5xl font-medium text-[#1E293B] mb-2">39</span>
+                <span className="text-sm md:text-base text-slate-600 font-medium">materiałów mindsetowych</span>
+              </div>
+              <div className="flex flex-col">
+                <span className="font-heading text-4xl md:text-5xl font-medium text-[#1E293B] mb-2">39</span>
+                <span className="text-sm md:text-base text-slate-600 font-medium">prowadzonych praktyk</span>
+              </div>
+              <div className="flex flex-col">
+                <span className="font-heading text-4xl md:text-5xl font-medium text-[#1E293B] mb-2">13</span>
+                <span className="text-sm md:text-base text-slate-600 font-medium">introspekcji</span>
+              </div>
+              <div className="flex flex-col">
+                <span className="font-heading text-2xl md:text-3xl font-medium text-[#1E293B] mb-2">Q&A</span>
+                <span className="text-sm md:text-base text-slate-600 font-medium">mniej więcej co 3–4 tygodnie</span>
+              </div>
+              <div className="flex flex-col">
+                <span className="font-heading text-xl md:text-2xl font-medium text-[#1E293B] mb-2 uppercase">CODZIENNY MAIL</span>
+                <span className="text-sm md:text-base text-slate-600 font-medium">prowadzący do kolejnego kroku</span>
+              </div>
+              <div className="flex flex-col">
+                <span className="font-heading text-2xl md:text-3xl font-medium text-[#1E293B] mb-2 uppercase">5 MIESIĘCY</span>
+                <span className="text-sm md:text-base text-slate-600 font-medium">dostępu</span>
+              </div>
+            </div>
+            
+            <p className="text-sm md:text-base text-slate-500 font-light italic">
+              Pełną zawartość programu pokażę Ci za chwilę.
+            </p>
+          </div>
+
+          <div className="mt-16 md:mt-20">
             {/* TODO: link to final program contents section anchor */}
             <a 
               href="#program-contents" 

@@ -16,9 +16,6 @@ export function Bridge() {
             <p>
               Możesz mieć swoją wizję, pracować nad sobą, medytować, afirmować i znać własne przekonania. A potem przychodzi zwykły dzień: ocena, trudna rozmowa, ryzyko, lęk albo decyzja, której nie da się dłużej odkładać.
             </p>
-            <p className="font-medium text-white tracking-wide">
-              I właśnie wtedy najłatwiej wracają reakcje, które znasz od lat.
-            </p>
           </div>
           
         </div>
