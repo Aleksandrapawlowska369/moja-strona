@@ -1,6 +1,6 @@
 export function WebinarHero() {
   return (
-    <section className="relative pt-32 pb-16 lg:pt-40 lg:pb-24 overflow-hidden bg-background">
+    <section className="relative pt-24 pb-16 lg:pt-32 lg:pb-24 overflow-hidden bg-background">
       {/* Background Effects */}
       <div className="absolute top-[-20%] left-[50%] -translate-x-1/2 w-[80%] h-[80%] bg-primary/10 blur-[120px] rounded-full pointer-events-none" />
       
