@@ -9,27 +9,27 @@ export function PostWebinarSnapshot() {
         <div className="grid grid-cols-2 md:grid-cols-3 gap-y-12 md:gap-y-16 gap-x-8 mb-16 md:mb-20">
           <div className="flex flex-col pl-4 md:pl-6 border-l-2 border-[#C29B57]/30">
             <span className="font-heading text-5xl md:text-[64px] font-bold text-[#0F172A] mb-3 tracking-tight">39</span>
-            <span className="text-base md:text-[19px] text-[#0F172A] font-bold leading-tight">materiałów mindsetowych</span>
+            <span className="text-[15px] md:text-[17px] text-slate-700 font-semibold leading-snug">materiałów mindsetowych</span>
           </div>
           <div className="flex flex-col pl-4 md:pl-6 border-l-2 border-[#C29B57]/30">
             <span className="font-heading text-5xl md:text-[64px] font-bold text-[#0F172A] mb-3 tracking-tight">39</span>
-            <span className="text-base md:text-[19px] text-[#0F172A] font-bold leading-tight">prowadzonych praktyk</span>
+            <span className="text-[15px] md:text-[17px] text-slate-700 font-semibold leading-snug">prowadzonych praktyk</span>
           </div>
           <div className="flex flex-col pl-4 md:pl-6 border-l-2 border-[#C29B57]/30">
             <span className="font-heading text-5xl md:text-[64px] font-bold text-[#0F172A] mb-3 tracking-tight">13</span>
-            <span className="text-base md:text-[19px] text-[#0F172A] font-bold leading-tight">introspekcji</span>
+            <span className="text-[15px] md:text-[17px] text-slate-700 font-semibold leading-snug">introspekcji</span>
           </div>
           <div className="flex flex-col pl-4 md:pl-6 border-l-2 border-[#C29B57]/30">
             <span className="font-heading text-3xl md:text-[40px] font-bold text-[#0F172A] mb-3 tracking-tight">Q&A</span>
-            <span className="text-base md:text-[19px] text-[#0F172A] font-bold leading-tight">mniej więcej co 3 do 4 tygodni</span>
+            <span className="text-[15px] md:text-[17px] text-slate-700 font-semibold leading-snug">mniej więcej co 3 do 4 tygodni</span>
           </div>
           <div className="flex flex-col pl-4 md:pl-6 border-l-2 border-[#C29B57]/30">
             <span className="font-heading text-2xl md:text-[32px] font-bold text-[#0F172A] mb-3 uppercase tracking-tight">CODZIENNY MAIL</span>
-            <span className="text-base md:text-[19px] text-[#0F172A] font-bold leading-tight">prowadzący do kolejnego kroku</span>
+            <span className="text-[15px] md:text-[17px] text-slate-700 font-semibold leading-snug">prowadzący do kolejnego kroku</span>
           </div>
           <div className="flex flex-col pl-4 md:pl-6 border-l-2 border-[#C29B57]/30">
             <span className="font-heading text-3xl md:text-[40px] font-bold text-[#0F172A] mb-3 uppercase tracking-tight">5 MIESIĘCY</span>
-            <span className="text-base md:text-[19px] text-[#0F172A] font-bold leading-tight">dostępu</span>
+            <span className="text-[15px] md:text-[17px] text-slate-700 font-semibold leading-snug">dostępu</span>
           </div>
         </div>
         
