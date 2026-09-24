@@ -10,18 +10,15 @@ import { AudienceFit } from '@/components/sections/AudienceFit';
 import { DayOneBridge } from '@/components/sections/DayOneBridge';
 import { FAQ } from '@/components/sections/FAQ';
 
+import { PostWebinarStatusBar } from '@/components/webinar/PostWebinarStatusBar';
+import { PostWebinarHero } from '@/components/webinar/PostWebinarHero';
+import { PostWebinarBridge } from '@/components/webinar/PostWebinarBridge';
 export default function PostWebinarPage() {
   return (
     <>
-      <div className="py-32 bg-[#0F172A] text-white flex flex-col items-center justify-center border-b border-slate-700">
-        <h1 className="text-3xl font-bold tracking-widest text-slate-400">DEV PLACEHOLDER</h1>
-        <p className="text-xl mt-4 font-medium text-white">POST-WEBINAR HERO</p>
-      </div>
-      
-      <div className="py-24 bg-[#1E293B] text-white flex flex-col items-center justify-center">
-        <h2 className="text-2xl font-bold tracking-widest text-slate-400">DEV PLACEHOLDER</h2>
-        <p className="text-lg mt-2 font-medium text-white">POST-WEBINAR BRIDGE</p>
-      </div>
+      <PostWebinarStatusBar />
+      <PostWebinarHero />
+      <PostWebinarBridge />
 
       <Stages />
       <Features />
