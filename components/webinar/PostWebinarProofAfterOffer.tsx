@@ -7,12 +7,15 @@ export function PostWebinarProofAfterOffer() {
 
           {/* TESTIMONIAL */}
           <div className="flex-1 bg-slate-800/50 p-8 md:p-10 rounded-2xl border border-slate-700">
-            <p className="text-xs md:text-sm text-[#C29B57] font-bold tracking-widest uppercase mb-6">
-              UCZESTNICZKA PO PROGRAMIE
-            </p>
-            <p className="font-heading text-[20px] md:text-[24px] text-white font-medium leading-[1.6] italic">
+            <p className="font-heading text-[20px] md:text-[24px] text-white font-medium leading-[1.6] italic mb-6">
               „Przeszłam cały program, okej, zajęło mi to około 100 dni, ale przeszłam go do końca. I to już samo w sobie jest dla mnie dużą zmianą.”
             </p>
+            <div className="flex flex-col">
+              <span className="font-medium text-white text-lg">Aleksandra</span>
+              <span className="text-xs md:text-sm text-[#C29B57] font-bold tracking-widest uppercase mt-1">
+                uczestniczka po programie
+              </span>
+            </div>
           </div>
 
           {/* REASSURANCE COPY */}

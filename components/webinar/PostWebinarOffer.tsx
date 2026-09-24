@@ -19,9 +19,9 @@ export function PostWebinarOffer() {
               <span className="font-medium text-white text-[20px] md:text-[22px] sm:mr-4 mb-3 sm:mb-0">
                 Te ceny są dostępne jeszcze przez:
               </span>
-              <span className="inline-block bg-[#1E293B] text-[#C29B57] px-4 py-2 rounded-md border border-[#C29B57]/30 text-xl md:text-2xl font-bold tracking-widest shadow-inner">
-                [TIMER 48H]
-              </span>
+              <div className="inline-block bg-[#1E293B] text-[#C29B57] px-4 py-2 rounded-md border border-[#C29B57]/30 text-xl md:text-2xl font-bold tracking-widest shadow-inner">
+                <div className="ddio_countdown_wrap"></div>
+              </div>
             </div>
           </div>
         </div>
@@ -30,7 +30,10 @@ export function PostWebinarOffer() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12 mb-16 max-w-4xl mx-auto">
           
           {/* JEDNORAZOWA */}
-          <div className="bg-white text-slate-900 rounded-2xl p-8 md:p-10 shadow-xl border border-slate-200 flex flex-col h-full">
+          <a
+            href="https://kursy.przeistoczenie.pl/s/twoja-nowa-tozsamosc-90-dni33.html"
+            className="block bg-white text-slate-900 rounded-2xl p-8 md:p-10 shadow-xl border border-slate-200 flex flex-col h-full hover:shadow-2xl transition-all cursor-pointer focus:outline-none focus:ring-4 focus:ring-[#C29B57]/50"
+          >
             <h3 className="font-heading text-lg md:text-xl font-bold text-slate-500 tracking-wider uppercase mb-6">
               PŁATNOŚĆ JEDNORAZOWA
             </h3>
@@ -47,10 +50,13 @@ export function PostWebinarOffer() {
                 Najkorzystniejsza cenowo forma dołączenia w tym 48-godzinnym oknie.
               </p>
             </div>
-          </div>
+          </a>
 
           {/* MIESIĘCZNA */}
-          <div className="bg-[#1E293B] text-white rounded-2xl p-8 md:p-10 shadow-xl border border-slate-700 flex flex-col h-full">
+          <a
+            href="https://kursy.przeistoczenie.pl/s/twoja-nowa-tozsamosc-90-dni33.html"
+            className="block bg-[#1E293B] text-white rounded-2xl p-8 md:p-10 shadow-xl border border-slate-700 flex flex-col h-full hover:shadow-2xl hover:border-slate-500 transition-all cursor-pointer focus:outline-none focus:ring-4 focus:ring-[#C29B57]/50"
+          >
             <h3 className="font-heading text-lg md:text-xl font-bold text-[#C29B57] tracking-wider uppercase mb-6">
               PŁATNOŚĆ MIESIĘCZNA
             </h3>
@@ -76,17 +82,18 @@ export function PostWebinarOffer() {
                 Przy 3 płatnościach łączny koszt programu wynosi <span className="font-medium text-white">1191 zł brutto</span>.
               </p>
             </div>
-          </div>
+          </a>
 
         </div>
 
         {/* CTA */}
         <div className="max-w-4xl mx-auto mb-20 md:mb-24 text-center">
-          <div 
+          <a
+            href="https://kursy.przeistoczenie.pl/s/twoja-nowa-tozsamosc-90-dni33.html"
             className="inline-flex w-full md:w-auto items-center justify-center px-8 md:px-12 py-5 bg-[#C29B57] text-white hover:bg-[#b08945] text-base md:text-[17px] font-bold tracking-wider uppercase transition-all rounded-md shadow-[0_0_20px_rgba(194,155,87,0.3)] mb-6"
           >
             WYBIERAM SPOSÓB PŁATNOŚCI I DOŁĄCZAM
-          </div>
+          </a>
           <p className="text-base md:text-lg text-slate-400 font-light italic">
             Na następnej stronie wybierzesz płatność jednorazową 997 zł albo miesięczną 397 zł, maksymalnie 3 płatności.
           </p>

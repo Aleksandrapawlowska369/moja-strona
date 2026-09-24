@@ -24,7 +24,7 @@ export function PostWebinarHero() {
           Przez 90 dni stopniowo stajesz się wersją siebie, dla której takie życie jest coraz bardziej naturalne w codzienności: w tym, jak myślisz, czujesz, reagujesz, wybierasz i działasz.
         </p>
 
-        <div className="space-y-6 text-[19px] md:text-[22px] text-slate-100 font-light leading-[1.8] mb-12 md:mb-16 max-w-3xl">
+        <div className="space-y-6 text-lg md:text-xl text-slate-100 font-light leading-[1.8] mb-12 md:mb-16 max-w-3xl">
           <p>
             Na webinarze było miejsce, żeby przyjrzeć się temu, jak naprawdę chcesz żyć, kim jesteś w takim życiu i co może pojawiać się pomiędzy Tobą dzisiaj a tym kierunkiem.
           </p>

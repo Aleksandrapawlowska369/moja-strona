@@ -28,12 +28,15 @@ export function PostWebinarStages() {
         
         {/* EARLY PROOF (04) */}
         <div className="mb-16 md:mb-20 pl-6 md:pl-10 border-l-[3px] border-[#3A84FF]/50 py-2 max-w-4xl">
-          <p className="text-xs md:text-sm text-slate-500 font-bold uppercase tracking-widest mb-4 md:mb-6">
-            UCZESTNICZKA PO PEŁNYCH 90 DNIACH PROGRAMU
-          </p>
-          <p className="font-heading text-2xl md:text-[34px] text-[#0F172A] font-medium leading-[1.4] italic">
+          <p className="font-heading text-2xl md:text-[34px] text-[#0F172A] font-medium leading-[1.4] italic mb-6">
             „Najważniejsza była dla mnie praktyka, a przede wszystkim to, że nie tylko opowiadałeś o tym, na czym dana praktyka polega, ale przede wszystkim prowadziłeś przez tę praktykę od początku do końca. Mogłam razem z Tobą wejść w daną praktykę, robić ją razem z Tobą, przechodząc przez cały proces krok po kroku.”
           </p>
+          <div className="flex flex-col">
+            <span className="font-medium text-[#1E293B] text-lg">Marta</span>
+            <span className="text-xs md:text-sm text-slate-500 font-bold uppercase tracking-widest mt-1">
+              uczestniczka po pełnych 90 dniach programu
+            </span>
+          </div>
         </div>
 
         {/* 4 ETAPY PROCESU (05) */}

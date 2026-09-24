@@ -11,7 +11,7 @@ export function PostWebinarBridge() {
         </div>
 
         {/* COPY BLOCKS */}
-        <div className="space-y-8 text-[20px] md:text-[24px] font-light leading-[1.8] text-slate-100 max-w-3xl mb-16 md:mb-20">
+        <div className="space-y-8 text-lg md:text-xl font-light leading-[1.8] text-slate-100 max-w-3xl mb-16 md:mb-20">
           <p>
             Na webinarze było miejsce, żeby przyjrzeć się temu, <span className="font-medium text-white">czego naprawdę pragniesz</span>, bliżej rozpoznać wersję siebie, dla której takie życie jest naturalne i prawdziwe, oraz zobaczyć, jak możesz podejść do sytuacji, w których robi się trudno.
           </p>
@@ -44,7 +44,7 @@ export function PostWebinarBridge() {
           </p>
         </div>
 
-        <div className="space-y-8 text-[20px] md:text-[24px] font-light leading-[1.8] text-slate-100 max-w-3xl mb-12 md:mb-16">
+        <div className="space-y-8 text-lg md:text-xl font-light leading-[1.8] text-slate-100 max-w-3xl mb-12 md:mb-16">
           <p>
             Jeśli chcesz przejść tę drogę ze mną, każdego dnia dostajesz kolejny krok i przestrzeń, żeby sprawdzać ten kierunek w prawdziwym życiu, również wtedy, kiedy nie masz warunków, żeby spokojnie usiąść i wszystko sobie poukładać.
           </p>
@@ -67,7 +67,7 @@ export function PostWebinarBridge() {
           <p className="text-2xl md:text-4xl text-white font-medium leading-snug tracking-wide mb-8 md:mb-10">
             Właśnie dlatego Twoja Nowa Tożsamość nie opiera się na jednej technice.
           </p>
-          <p className="text-[20px] md:text-[24px] text-slate-200 font-light leading-[1.8] max-w-3xl mx-auto">
+          <p className="text-lg md:text-xl text-slate-200 font-light leading-[1.8] max-w-3xl mx-auto">
             Przez 90 dni wracamy do wybranego przez Ciebie kierunku z różnych stron, tak żeby z czasem coraz lepiej rozpoznawać, co dzieje się w Tobie, i mieć coraz więcej realnie poznanych sposobów powrotu do siebie.
           </p>
         </div>

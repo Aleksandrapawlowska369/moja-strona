@@ -53,12 +53,15 @@ export function PostWebinarRelationship() {
 
         {/* TESTIMONIAL */}
         <div className="pt-16 md:pt-24 border-t border-slate-200">
-          <p className="text-xs md:text-sm text-slate-500 font-bold tracking-widest uppercase mb-6">
-            UCZESTNICZKA PO PROGRAMIE
-          </p>
-          <p className="font-heading text-[26px] md:text-[34px] text-[#0F172A] font-medium leading-[1.4] italic max-w-4xl">
+          <p className="font-heading text-[26px] md:text-[34px] text-[#0F172A] font-medium leading-[1.4] italic max-w-4xl mb-6">
             „Zaczęłam być swoim przyjacielem zamiast krytykiem.”
           </p>
+          <div className="flex flex-col">
+            <span className="font-medium text-[#1E293B] text-lg">Aleksandra</span>
+            <span className="text-xs md:text-sm text-slate-500 font-bold tracking-widest uppercase mt-1">
+              uczestniczka po programie
+            </span>
+          </div>
         </div>
       </div>
     </section>

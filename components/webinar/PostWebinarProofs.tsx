@@ -29,12 +29,15 @@ export function PostWebinarProofs() {
           </div>
           
           <div className="bg-slate-900/40 backdrop-blur-md p-8 md:p-10 rounded-2xl border border-white/10 relative">
-            <p className="text-xs md:text-sm text-[#C29B57] font-bold tracking-widest uppercase mb-6">
-              UCZESTNICZKA PO PROGRAMIE
-            </p>
-            <p className="text-white italic leading-[1.7] text-[19px] md:text-[21px] font-medium">
+            <p className="text-white italic leading-[1.7] text-[19px] md:text-[21px] font-medium mb-6">
               „Wcześniej, kiedy pojawiały się trudne zadania, bardzo często uciekałam w prokrastynację. Dzisiaj po prostu stawiam im czoła. Mam więcej radości z wyzwań, więcej radości z życia i czuję, że po prostu jestem w stanie zrobić więcej niż wcześniej.”
             </p>
+            <div className="flex flex-col">
+              <span className="font-medium text-white text-lg">Aleksandra</span>
+              <span className="text-xs md:text-sm text-[#C29B57] font-bold tracking-widest uppercase mt-1">
+                uczestniczka po programie
+              </span>
+            </div>
           </div>
         </div>
 

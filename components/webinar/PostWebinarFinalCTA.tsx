@@ -33,9 +33,9 @@ export function PostWebinarFinalCTA() {
             SPECJALNE WARUNKI PO WEBINARZE SĄ DOSTĘPNE JESZCZE PRZEZ:
           </p>
           <div className="mb-10">
-            <span className="inline-block bg-[#1E293B] text-[#C29B57] px-6 py-3 rounded-md border border-[#C29B57]/30 text-2xl md:text-3xl font-bold tracking-widest shadow-inner">
-              [TIMER 48H]
-            </span>
+            <div className="inline-block bg-[#1E293B] text-[#C29B57] px-6 py-3 rounded-md border border-[#C29B57]/30 text-2xl md:text-3xl font-bold tracking-widest shadow-inner">
+              <div className="ddio_countdown_wrap"></div>
+            </div>
           </div>
           <div className="space-y-6">
             <p className="font-heading text-3xl md:text-4xl text-white font-bold">
@@ -50,11 +50,12 @@ export function PostWebinarFinalCTA() {
 
         {/* CTA BUTTON */}
         <div className="flex flex-col items-center justify-center">
-          <div
+          <a
+            href="https://kursy.przeistoczenie.pl/s/twoja-nowa-tozsamosc-90-dni33.html"
             className="inline-flex w-full md:w-auto items-center justify-center px-8 md:px-12 py-5 md:py-6 bg-[#C29B57] text-white hover:bg-[#b08945] text-lg md:text-[19px] font-bold tracking-wider uppercase transition-all rounded-md shadow-[0_0_20px_rgba(194,155,87,0.3)] mb-6"
           >
             DOŁĄCZAM DO PEŁNEGO PROGRAMU
-          </div>
+          </a>
           <p className="text-sm md:text-base text-slate-400 font-light">
             90 dni procesu • od 397 zł miesięcznie lub 997 zł jednorazowo • 5 miesięcy dostępu
           </p>

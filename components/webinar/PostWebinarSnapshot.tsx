@@ -1,3 +1,5 @@
+import { PostWebinarPreOfferCTA } from './PostWebinarPreOfferCTA';
+
 export function PostWebinarSnapshot() {
   return (
     <section className="py-20 md:py-32 bg-[#F8FAFC] border-t border-slate-200">
@@ -38,6 +40,7 @@ export function PostWebinarSnapshot() {
             Pełną zawartość programu pokażę Ci za chwilę.
           </p>
         </div>
+        <PostWebinarPreOfferCTA theme="light" />
       </div>
     </section>
   );

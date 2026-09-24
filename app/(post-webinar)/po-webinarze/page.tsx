@@ -6,6 +6,7 @@ import { PostWebinarFinalCTA } from '@/components/webinar/PostWebinarFinalCTA';
 import { PostWebinarStatusBar } from '@/components/webinar/PostWebinarStatusBar';
 import { PostWebinarHero } from '@/components/webinar/PostWebinarHero';
 import { PostWebinarBridge } from '@/components/webinar/PostWebinarBridge';
+import { PostWebinarVideoTestimonials } from '@/components/webinar/PostWebinarVideoTestimonials';
 import { PostWebinarStages } from '@/components/webinar/PostWebinarStages';
 import { PostWebinarTopicMap } from '@/components/webinar/PostWebinarTopicMap';
 import { PostWebinarSnapshot } from '@/components/webinar/PostWebinarSnapshot';
@@ -27,6 +28,7 @@ export default function PostWebinarPage() {
       <PostWebinarStatusBar />
       <PostWebinarHero />
       <PostWebinarBridge />
+      <PostWebinarVideoTestimonials />
 
       <PostWebinarStages />
       <PostWebinarTopicMap />

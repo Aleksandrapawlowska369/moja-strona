@@ -31,7 +31,7 @@ export function PostWebinarState() {
             <h3 className="text-sm md:text-base font-bold text-slate-500 tracking-[0.15em] uppercase mb-8">
               KIEDY WCHODZĘ Z:
             </h3>
-            <div className="space-y-5 text-[20px] md:text-[24px] text-slate-400 font-normal">
+            <div className="space-y-5 text-lg md:text-xl text-slate-400 font-normal">
               <p>napięcia</p>
               <p>lęku</p>
               <p>potrzeby obrony</p>
@@ -42,7 +42,7 @@ export function PostWebinarState() {
             <h3 className="text-sm md:text-base font-bold text-[#C29B57] tracking-[0.15em] uppercase mb-8">
               KIEDY JEST WE MNIE WIĘCEJ:
             </h3>
-            <div className="space-y-5 text-[20px] md:text-[24px] text-[#0F172A] font-bold">
+            <div className="space-y-5 text-lg md:text-xl text-[#0F172A] font-bold">
               <p>spokoju</p>
               <p>kontaktu ze sobą</p>
               <p>przestrzeni na świadomą odpowiedź</p>

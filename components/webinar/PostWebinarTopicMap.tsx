@@ -12,7 +12,7 @@ export function PostWebinarTopicMap() {
             <h3 className="text-sm md:text-[15px] font-extrabold text-[#C29B57] tracking-[0.15em] md:tracking-widest uppercase mb-6 md:mb-8">
               TO, CO DZIAŁA POD POWIERZCHNIĄ
             </h3>
-            <p className="text-[19px] md:text-[20px] text-slate-800 leading-[1.8] font-light max-w-md">
+            <p className="text-base md:text-lg text-slate-800 leading-[1.8] font-light max-w-md">
               przekonania <span className="opacity-40 px-1.5">•</span> paradygmaty <span className="opacity-40 px-1.5">•</span> lęk <span className="opacity-40 px-1.5">•</span> cień <span className="opacity-40 px-1.5">•</span> mechanizmy obronne <span className="opacity-40 px-1.5">•</span> autosabotaż <span className="opacity-40 px-1.5">•</span> poczucie niezasługiwania <span className="opacity-40 px-1.5">•</span> wzorce wyniesione z domu i rodu
             </p>
           </div>
@@ -22,7 +22,7 @@ export function PostWebinarTopicMap() {
             <h3 className="text-sm md:text-[15px] font-extrabold text-[#C29B57] tracking-[0.15em] md:tracking-widest uppercase mb-6 md:mb-8">
               RELACJA ZE SOBĄ
             </h3>
-            <p className="text-[19px] md:text-[20px] text-slate-800 leading-[1.8] font-light max-w-md">
+            <p className="text-base md:text-lg text-slate-800 leading-[1.8] font-light max-w-md">
               wewnętrzne dziecko <span className="opacity-40 px-1.5">•</span> wewnętrzny krytyk <span className="opacity-40 px-1.5">•</span> akceptacja <span className="opacity-40 px-1.5">•</span> wybaczanie sobie <span className="opacity-40 px-1.5">•</span> poczucie własnej wartości <span className="opacity-40 px-1.5">•</span> granice <span className="opacity-40 px-1.5">•</span> miłość do siebie <span className="opacity-40 px-1.5">•</span> stawanie po swojej stronie
             </p>
           </div>
@@ -32,7 +32,7 @@ export function PostWebinarTopicMap() {
             <h3 className="text-sm md:text-[15px] font-extrabold text-[#C29B57] tracking-[0.15em] md:tracking-widest uppercase mb-6 md:mb-8">
               CIAŁO, EMOCJE, STAN I ENERGIA
             </h3>
-            <p className="text-[19px] md:text-[20px] text-slate-800 leading-[1.8] font-light max-w-md">
+            <p className="text-base md:text-lg text-slate-800 leading-[1.8] font-light max-w-md">
               napięcie <span className="opacity-40 px-1.5">•</span> emocje <span className="opacity-40 px-1.5">•</span> oddech <span className="opacity-40 px-1.5">•</span> ruch <span className="opacity-40 px-1.5">•</span> kontakt z ciałem <span className="opacity-40 px-1.5">•</span> medytacja <span className="opacity-40 px-1.5">•</span> autohipnoza <span className="opacity-40 px-1.5">•</span> praca ze stanem <span className="opacity-40 px-1.5">•</span> energia
             </p>
           </div>
@@ -42,7 +42,7 @@ export function PostWebinarTopicMap() {
             <h3 className="text-sm md:text-[15px] font-extrabold text-[#C29B57] tracking-[0.15em] md:tracking-widest uppercase mb-6 md:mb-8">
               TO, JAK CHCESZ DALEJ ŻYĆ I TWORZYĆ
             </h3>
-            <p className="text-[19px] md:text-[20px] text-slate-800 leading-[1.8] font-light max-w-md">
+            <p className="text-base md:text-lg text-slate-800 leading-[1.8] font-light max-w-md">
               standardy <span className="opacity-40 px-1.5">•</span> nawyki <span className="opacity-40 px-1.5">•</span> decyzje <span className="opacity-40 px-1.5">•</span> działanie mimo dyskomfortu <span className="opacity-40 px-1.5">•</span> spójność myśli, uczuć i działania <span className="opacity-40 px-1.5">•</span> pragnienia <span className="opacity-40 px-1.5">•</span> wizualizacja <span className="opacity-40 px-1.5">•</span> obfitość <span className="opacity-40 px-1.5">•</span> relacja z pieniędzmi <span className="opacity-40 px-1.5">•</span> wdzięczność <span className="opacity-40 px-1.5">•</span> świadoma kreacja
             </p>
           </div>

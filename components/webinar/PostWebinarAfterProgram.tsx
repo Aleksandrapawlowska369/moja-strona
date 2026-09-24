@@ -1,4 +1,5 @@
 import { DiscoveryLink } from '../DiscoveryLink';
+import { PostWebinarPreOfferCTA } from './PostWebinarPreOfferCTA';
 
 export function PostWebinarAfterProgram() {
   return (
@@ -54,12 +55,15 @@ export function PostWebinarAfterProgram() {
 
         {/* TESTIMONIAL (Connected to the pillars) */}
         <div className="mb-20 md:mb-24 w-full max-w-5xl bg-slate-50 p-8 md:p-10 rounded-xl border border-slate-200">
-          <p className="text-xs md:text-sm text-[#C29B57] font-bold tracking-widest uppercase mb-6">
-            UCZESTNICZKA PO PROGRAMIE
-          </p>
-          <p className="font-heading text-[22px] md:text-[26px] text-[#1E293B] font-medium leading-[1.6] italic">
+          <p className="font-heading text-[22px] md:text-[26px] text-[#1E293B] font-medium leading-[1.6] italic mb-6">
             „Część z tych praktyk stała się w jakimś sensie moim małym rytuałem. Mam poczucie, że ten program nie zamknął tego procesu, tylko otworzył mi drogę do dalszej pracy ze sobą.”
           </p>
+          <div className="flex flex-col">
+            <span className="font-medium text-[#1E293B] text-lg">Marta</span>
+            <span className="text-xs md:text-sm text-[#C29B57] font-bold tracking-widest uppercase mt-1">
+              uczestniczka po programie
+            </span>
+          </div>
         </div>
 
         {/* DOMKNIĘCIE */}
@@ -79,6 +83,7 @@ export function PostWebinarAfterProgram() {
             theme="dark"
           />
         </div>
+        <PostWebinarPreOfferCTA theme="light" />
 
       </div>
     </section>

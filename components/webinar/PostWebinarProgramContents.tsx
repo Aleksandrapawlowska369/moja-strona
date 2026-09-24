@@ -63,7 +63,7 @@ export function PostWebinarProgramContents() {
               <h3 className="font-heading text-3xl md:text-4xl text-white font-medium mb-4 uppercase tracking-tight">
                 {item.title}
               </h3>
-              <p className="text-[17px] md:text-[19px] text-slate-300 font-light leading-[1.8] whitespace-pre-wrap">
+              <p className="text-base md:text-lg text-slate-300 font-light leading-[1.8] whitespace-pre-wrap">
                 {item.description}
               </p>
             </div>
@@ -96,7 +96,7 @@ export function PostWebinarProgramContents() {
         {/* PRIMARY CTA */}
         <div className="pt-12 text-left md:text-center">
           <a 
-            href="#pricing"
+            href="#oferta"
             className="inline-flex items-center justify-center px-8 md:px-12 py-4 md:py-5 bg-white text-[#0F172A] hover:bg-slate-200 text-sm md:text-base font-bold tracking-wider uppercase transition-all rounded-md shadow-lg group"
           >
             ZOBACZ WARUNKI DOŁĄCZENIA <span className="ml-2 group-hover:translate-y-1 transition-transform">↓</span>
