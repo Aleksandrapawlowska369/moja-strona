@@ -1,5 +1,3 @@
-import { About } from '@/components/sections/About';
-import { AudienceFit } from '@/components/sections/AudienceFit';
 import { DayOneBridge } from '@/components/sections/DayOneBridge';
 import { FAQ } from '@/components/sections/FAQ';
 
@@ -16,6 +14,10 @@ import { PostWebinarProofs } from '@/components/webinar/PostWebinarProofs';
 import { PostWebinarDailyRhythm } from '@/components/webinar/PostWebinarDailyRhythm';
 import { PostWebinarProgramContents } from '@/components/webinar/PostWebinarProgramContents';
 import { PostWebinarAfterProgram } from '@/components/webinar/PostWebinarAfterProgram';
+
+import { PostWebinarAbout } from '@/components/webinar/PostWebinarAbout';
+import { PostWebinarAudienceFit } from '@/components/webinar/PostWebinarAudienceFit';
+import { PostWebinarOffer } from '@/components/webinar/PostWebinarOffer';
 
 export default function PostWebinarPage() {
   return (
@@ -34,14 +36,11 @@ export default function PostWebinarPage() {
       <PostWebinarDailyRhythm />
       <PostWebinarProgramContents />
       <PostWebinarAfterProgram />
-      <About />
-      <AudienceFit />
+      
+      <PostWebinarAbout />
+      <PostWebinarAudienceFit />
       <DayOneBridge />
-
-      <div className="py-32 bg-[#0F172A] text-white flex flex-col items-center justify-center border-y border-slate-700">
-        <h2 className="text-2xl font-bold tracking-widest text-slate-400">DEV PLACEHOLDER</h2>
-        <p className="text-lg mt-2 font-medium text-white">PROMO PRICING + TIMER</p>
-      </div>
+      <PostWebinarOffer />
 
       <FAQ />
 
