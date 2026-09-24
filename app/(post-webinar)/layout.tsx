@@ -1,4 +1,4 @@
-import { Footer } from "@/components/Footer";
+import { PostWebinarFooter } from "@/components/webinar/PostWebinarFooter";
 
 export default function PostWebinarLayout({
   children,
@@ -10,7 +10,7 @@ export default function PostWebinarLayout({
       <main className="flex-1 flex flex-col">
         {children}
       </main>
-      <Footer />
+      <PostWebinarFooter />
     </>
   );
 }

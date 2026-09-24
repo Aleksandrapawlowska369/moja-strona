@@ -1,5 +1,7 @@
 import { DayOneBridge } from '@/components/sections/DayOneBridge';
-import { FAQ } from '@/components/sections/FAQ';
+import { PostWebinarProofAfterOffer } from '@/components/webinar/PostWebinarProofAfterOffer';
+import { PostWebinarFAQ } from '@/components/webinar/PostWebinarFAQ';
+import { PostWebinarFinalCTA } from '@/components/webinar/PostWebinarFinalCTA';
 
 import { PostWebinarStatusBar } from '@/components/webinar/PostWebinarStatusBar';
 import { PostWebinarHero } from '@/components/webinar/PostWebinarHero';
@@ -42,12 +44,9 @@ export default function PostWebinarPage() {
       <DayOneBridge />
       <PostWebinarOffer />
 
-      <FAQ />
-
-      <div className="py-32 bg-[#1E293B] text-white flex flex-col items-center justify-center">
-        <h2 className="text-2xl font-bold tracking-widest text-slate-400">DEV PLACEHOLDER</h2>
-        <p className="text-lg mt-2 font-medium text-white">POST-WEBINAR FINAL CTA</p>
-      </div>
+      <PostWebinarProofAfterOffer />
+      <PostWebinarFAQ />
+      <PostWebinarFinalCTA />
     </>
   );
 }
