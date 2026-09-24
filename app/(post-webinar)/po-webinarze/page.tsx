@@ -1,4 +1,3 @@
-import { Stages } from '@/components/sections/Stages';
 import { Features } from '@/components/sections/Features';
 import { Rhythm } from '@/components/sections/Rhythm';
 import { Testimonials } from '@/components/sections/Testimonials';
@@ -13,6 +12,10 @@ import { FAQ } from '@/components/sections/FAQ';
 import { PostWebinarStatusBar } from '@/components/webinar/PostWebinarStatusBar';
 import { PostWebinarHero } from '@/components/webinar/PostWebinarHero';
 import { PostWebinarBridge } from '@/components/webinar/PostWebinarBridge';
+import { PostWebinarStages } from '@/components/webinar/PostWebinarStages';
+import { PostWebinarTopicMap } from '@/components/webinar/PostWebinarTopicMap';
+import { PostWebinarSnapshot } from '@/components/webinar/PostWebinarSnapshot';
+
 export default function PostWebinarPage() {
   return (
     <>
@@ -20,7 +23,10 @@ export default function PostWebinarPage() {
       <PostWebinarHero />
       <PostWebinarBridge />
 
-      <Stages />
+      <PostWebinarStages />
+      <PostWebinarTopicMap />
+      <PostWebinarSnapshot />
+      
       <Features />
       <Rhythm />
       <Testimonials />

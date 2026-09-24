@@ -38,7 +38,7 @@ export function PostWebinarHero() {
             href="#etapy" 
             className="flex items-center justify-center w-full md:w-auto min-h-[56px] px-10 text-white text-sm md:text-base font-bold bg-[#3A84FF] rounded-lg hover:bg-blue-600 transition-colors duration-300 uppercase"
           >
-            [ZOBACZ, JAK WYGLĄDA PEŁNY PROCES]
+            ZOBACZ, JAK WYGLĄDA PEŁNY PROCES
           </Link>
           <p className="mt-6 text-xs md:text-sm text-slate-400 font-medium">
             90 dni procesu • 5 miesięcy dostępu
