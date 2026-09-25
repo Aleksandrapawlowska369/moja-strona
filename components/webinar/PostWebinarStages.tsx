@@ -8,17 +8,17 @@ export function PostWebinarStages() {
     {
       number: "ETAP 2",
       title: "Zrobić miejsce na coś nowego",
-      description: "Lęk, trudne emocje, stare wzorce, mechanizmy obronne i relacja ze sobą."
+      description: "Pracujesz z lękiem, trudnymi emocjami, starymi wzorcami, mechanizmami obronnymi i relacją ze sobą."
     },
     {
       number: "ETAP 3",
       title: "Ćwiczyć inny sposób reagowania i działania",
-      description: "Stan, ciało, przekonania, standardy, decyzje i konkretne ruchy w codziennym życiu."
+      description: "Pracujesz ze stanem, ciałem, przekonaniami i standardami, a potem przekładasz to na decyzje i konkretne ruchy w codziennym życiu."
     },
     {
       number: "ETAP 4",
       title: "Integrować i zabierać ze sobą to, co naprawdę działa",
-      description: "Pragnienia, wizja, świadoma kreacja, własne dowody i praktyki, do których chcesz wracać."
+      description: "Wracasz do swoich pragnień i wizji, zbierasz własne dowody i wybierasz praktyki, do których chcesz wracać."
     }
   ];
 
@@ -48,8 +48,8 @@ export function PostWebinarStages() {
           <div className="space-y-16 md:space-y-24 relative before:hidden md:before:block before:absolute before:top-4 before:bottom-4 before:left-[1.5rem] before:w-px before:bg-slate-200">
             {stages.map((stage, index) => (
               <div key={index} className="flex flex-col md:flex-row gap-4 md:gap-12 items-start relative z-10">
-                <div className="shrink-0 w-20 md:w-24 pt-1.5 md:pt-2">
-                  <span className="inline-block text-xs md:text-sm font-bold text-[#C29B57] tracking-widest uppercase">
+                <div className="shrink-0 w-24 pt-1.5 md:pt-2">
+                  <span className="inline-flex items-center justify-center border border-[#C29B57]/30 bg-[#C29B57]/5 rounded-md px-3 py-1.5 text-xs md:text-sm font-bold text-[#C29B57] tracking-widest uppercase">
                     {stage.number}
                   </span>
                 </div>

@@ -99,7 +99,7 @@ export function PostWebinarProgramContents() {
             href="#oferta"
             className="inline-flex items-center justify-center px-8 md:px-12 py-4 md:py-5 bg-white text-[#0F172A] hover:bg-slate-200 text-sm md:text-base font-bold tracking-wider uppercase transition-all rounded-md shadow-lg group"
           >
-            ZOBACZ WARUNKI DOŁĄCZENIA <span className="ml-2 group-hover:translate-y-1 transition-transform">↓</span>
+            ZOBACZ CENĘ I WARUNKI DOŁĄCZENIA <span className="ml-2 group-hover:translate-y-1 transition-transform">↓</span>
           </a>
         </div>
 

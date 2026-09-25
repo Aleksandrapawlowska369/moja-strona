@@ -16,7 +16,7 @@ export function PostWebinarProofs() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-10 md:gap-16 items-start mb-16 md:mb-24">
           <div className="space-y-6 text-[20px] md:text-[22px] text-slate-300 font-light leading-[1.8]">
             <p>
-              Słowa mają znaczenie, ale własne doświadczenie waży inaczej.
+              Słowa mają znaczenie, ale czym innym jest coś usłyszeć, a czym innym sprawdzić to we własnym doświadczeniu.
             </p>
             <p>
               Kiedy robisz trudne zadanie mimo chęci ucieczki, wracasz po przerwie, dotrzymujesz decyzji albo w znanej sytuacji reagujesz inaczej niż zwykle, pojawia się własny dowód:
@@ -51,7 +51,7 @@ export function PostWebinarProofs() {
           
           <div className="pt-6">
             <p className="text-[22px] md:text-[26px] font-medium text-white tracking-wide">
-              Zmiana ma mieć czas spotkać Cię w codzienności.
+              Dzięki temu zmiana ma czas przełożyć się na codzienne życie.
             </p>
           </div>
         </div>

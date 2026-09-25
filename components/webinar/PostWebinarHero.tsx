@@ -35,7 +35,7 @@ export function PostWebinarHero() {
         
         <div className="w-full flex flex-col items-center">
           <Link 
-            href="#etapy" 
+            href="#opinie-video"
             className="flex items-center justify-center w-full md:w-auto min-h-[56px] px-10 text-white text-sm md:text-base font-bold bg-[#3A84FF] rounded-lg hover:bg-blue-600 transition-colors duration-300 uppercase"
           >
             ZOBACZ, JAK WYGLĄDA PEŁNY PROCES

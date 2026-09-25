@@ -10,7 +10,7 @@ export function PostWebinarPreOfferCTA({ theme = "dark" }: { theme?: "light" | "
             : "bg-[#0F172A] text-white hover:bg-slate-800"
         }`}
       >
-        ZOBACZ WARUNKI DOŁĄCZENIA <span className="ml-2 group-hover:translate-y-1 transition-transform">↓</span>
+        ZOBACZ CENĘ I WARUNKI DOŁĄCZENIA <span className="ml-2 group-hover:translate-y-1 transition-transform">↓</span>
       </a>
     </div>
   );

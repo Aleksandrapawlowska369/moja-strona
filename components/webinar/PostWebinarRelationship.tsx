@@ -12,7 +12,7 @@ export function PostWebinarRelationship() {
         {/* COPY */}
         <div className="space-y-6 md:space-y-8 text-[20px] md:text-[22px] text-slate-700 font-light leading-[1.8] max-w-3xl">
           <p>
-            Łatwiej przechodzi się przez zmianę, kiedy masz obok kogoś, kto wierzy w Ciebie, nie przekreśla po błędzie i potrafi przypomnieć szerszą perspektywę.
+            Łatwiej przechodzi się przez zmianę, kiedy masz obok kogoś, kto wierzy w Ciebie, nie przekreśla Cię po błędzie i potrafi przypomnieć Ci szerszą perspektywę.
           </p>
           <p>
             Jedną z najważniejszych rzeczy w tym procesie jest stopniowo stawać się taką osobą dla siebie.

@@ -1,4 +1,12 @@
+import { Metadata } from 'next';
 import { DayOneBridge } from '@/components/sections/DayOneBridge';
+
+export const metadata: Metadata = {
+  robots: {
+    index: false,
+    follow: false,
+  },
+};
 import { PostWebinarProofAfterOffer } from '@/components/webinar/PostWebinarProofAfterOffer';
 import { PostWebinarFAQ } from '@/components/webinar/PostWebinarFAQ';
 import { PostWebinarFinalCTA } from '@/components/webinar/PostWebinarFinalCTA';
