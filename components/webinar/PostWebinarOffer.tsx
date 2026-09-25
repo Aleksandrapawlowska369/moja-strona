@@ -13,7 +13,7 @@ export function PostWebinarOffer() {
           </h2>
           <div className="text-[19px] md:text-[21px] text-slate-300 font-light leading-[1.8] max-w-3xl mx-auto space-y-6 flex flex-col items-center">
             <p>
-              <span className="font-medium text-white">Po obejrzeniu webinaru do końca masz 48 godzin, żeby dołączyć</span> do pełnego 90-dniowego procesu na specjalnych warunkach.
+              Cenię zaangażowanie osób, które naprawdę chcą coś zmienić i są gotowe wykonać swoją część tej pracy. Dlatego właśnie za to, że dotarł(a)ś ze mną aż do tego momentu, przez najbliższe 48 godzin możesz dołączyć do programu w niższej cenie.
             </p>
             <div className="flex flex-col sm:flex-row items-center justify-center pt-2">
               <span className="font-medium text-white text-[20px] md:text-[22px] sm:mr-4 mb-3 sm:mb-0">

@@ -6,14 +6,14 @@ export function PostWebinarDailyRhythm() {
         {/* H2 */}
         <div className="mb-20 md:mb-24 max-w-3xl">
           <h2 className="font-heading text-3xl md:text-5xl lg:text-6xl font-medium text-[#1E293B] leading-[1.15]">
-            Każdego dnia wchodzisz w kolejny krok, zamiast samodzielnie układać sobie całą drogę.
+            Każdego dnia dostajesz kolejny krok.
           </h2>
         </div>
 
         {/* COPY PRE-RYTM */}
         <div className="mb-16 md:mb-20 max-w-3xl space-y-6 md:space-y-8 text-[20px] md:text-[22px] text-slate-700 font-light leading-[1.8]">
           <p className="font-medium text-[#1E293B]">
-            Przez 90 dni coś regularnie zaprasza Cię z powrotem do siebie, do wybranego kierunku i do kolejnego kroku.
+            Przez 90 dni codziennie otrzymujesz nowy materiał, który pomaga Ci wracać do siebie, do wybranego kierunku i do kolejnego kroku.
           </p>
           <p>
             Podstawowy rytm tygodnia jest prosty: materiał mindsetowy przeplatam z prowadzoną praktyką, a co 7. dzień zostawiam na introspekcję i integrację.

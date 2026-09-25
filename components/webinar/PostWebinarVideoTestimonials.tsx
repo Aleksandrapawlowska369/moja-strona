@@ -7,7 +7,7 @@ export function PostWebinarVideoTestimonials() {
   ];
 
   return (
-    <section className="py-24 md:py-32 bg-[#101010] border-t border-white/5">
+    <section id="opinie-video" className="py-24 md:py-32 bg-[#101010] border-t border-white/5">
       <div className="container mx-auto px-6 max-w-5xl text-center">
 
         <h2 className="font-heading text-3xl md:text-5xl font-medium text-white mb-16 md:mb-20">
