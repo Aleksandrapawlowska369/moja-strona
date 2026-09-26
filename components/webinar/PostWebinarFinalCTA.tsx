@@ -30,13 +30,8 @@ export function PostWebinarFinalCTA() {
         {/* PRICING & TIMER SUMMARY */}
         <div className="bg-[#0F172A] rounded-2xl p-8 md:p-12 border border-slate-700 shadow-xl mb-12 mx-auto max-w-2xl">
           <p className="text-sm md:text-base font-bold text-[#C29B57] tracking-widest uppercase mb-6">
-            SPECJALNE WARUNKI PO WEBINARZE SĄ DOSTĘPNE JESZCZE PRZEZ:
+            Do programu możesz dołączyć dziś:
           </p>
-          <div className="mb-10">
-            <div className="inline-block bg-[#1E293B] text-[#C29B57] px-6 py-3 rounded-md border border-[#C29B57]/30 text-2xl md:text-3xl font-bold tracking-widest shadow-inner">
-              <div className="ddio_countdown_wrap"></div>
-            </div>
-          </div>
           <div className="space-y-6">
             <p className="font-heading text-3xl md:text-4xl text-white font-bold">
               997 zł jednorazowo
