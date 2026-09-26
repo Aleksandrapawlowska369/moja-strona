@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Manrope, Cormorant_Garamond } from "next/font/google";
 import "./globals.css";
 import { Analytics } from "@vercel/analytics/next";
+import Script from "next/script";
 
 const manrope = Manrope({
   variable: "--font-manrope",
@@ -51,6 +52,27 @@ export default function RootLayout({
   return (
     <html lang="pl" className={`${manrope.variable} ${cormorant.variable} antialiased`} style={{ colorScheme: 'dark' }}>
       <body className="min-h-screen font-sans flex flex-col bg-[#1A1A1A] text-white">
+        <Script
+          id="gtm-script"
+          strategy="afterInteractive"
+          dangerouslySetInnerHTML={{
+            __html: `
+              (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+              new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+              j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+              'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+              })(window,document,'script','dataLayer','GTM-5M4QHFLD');
+            `,
+          }}
+        />
+        <noscript>
+          <iframe
+            src="https://www.googletagmanager.com/ns.html?id=GTM-5M4QHFLD"
+            height="0"
+            width="0"
+            style={{ display: "none", visibility: "hidden" }}
+          />
+        </noscript>
         {children}
         <Analytics />
       </body>
