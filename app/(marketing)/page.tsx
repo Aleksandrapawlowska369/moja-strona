@@ -6,6 +6,7 @@ import { Stages } from '@/components/sections/Stages';
 import { Features } from '@/components/sections/Features';
 import { Rhythm } from '@/components/sections/Rhythm';
 import { Testimonials } from '@/components/sections/Testimonials';
+import { PostWebinarVideoTestimonials } from '@/components/webinar/PostWebinarVideoTestimonials';
 import { DailyRhythm } from '@/components/sections/DailyRhythm';
 import { ProgramContents } from '@/components/sections/ProgramContents';
 import { AfterProgram } from '@/components/sections/AfterProgram';
@@ -28,6 +29,7 @@ export default function MarketingPage() {
       <Features />
       <Rhythm />
       <Testimonials />
+      <PostWebinarVideoTestimonials />
       <DailyRhythm />
       <ProgramContents />
       <AfterProgram />
