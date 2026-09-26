@@ -15,14 +15,6 @@ export function PostWebinarOffer() {
             <p>
               Cenię zaangażowanie osób, które naprawdę chcą coś zmienić i są gotowe wykonać swoją część tej pracy. Dlatego właśnie za to, że dotarł(a)ś ze mną aż do tego momentu, przez najbliższe 48 godzin możesz dołączyć do programu w niższej cenie.
             </p>
-            <div className="flex flex-col sm:flex-row items-center justify-center pt-2">
-              <span className="font-medium text-white text-[20px] md:text-[22px] sm:mr-4 mb-3 sm:mb-0">
-                Te ceny są dostępne jeszcze przez:
-              </span>
-              <div className="inline-block bg-[#1E293B] text-[#C29B57] px-4 py-2 rounded-md border border-[#C29B57]/30 text-xl md:text-2xl font-bold tracking-widest shadow-inner">
-                <div className="ddio_countdown_wrap"></div>
-              </div>
-            </div>
           </div>
         </div>
 

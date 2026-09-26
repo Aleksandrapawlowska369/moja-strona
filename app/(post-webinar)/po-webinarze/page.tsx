@@ -11,7 +11,6 @@ import { PostWebinarProofAfterOffer } from '@/components/webinar/PostWebinarProo
 import { PostWebinarFAQ } from '@/components/webinar/PostWebinarFAQ';
 import { PostWebinarFinalCTA } from '@/components/webinar/PostWebinarFinalCTA';
 
-import { PostWebinarStatusBar } from '@/components/webinar/PostWebinarStatusBar';
 import { PostWebinarHero } from '@/components/webinar/PostWebinarHero';
 import { PostWebinarBridge } from '@/components/webinar/PostWebinarBridge';
 import { PostWebinarVideoTestimonials } from '@/components/webinar/PostWebinarVideoTestimonials';
@@ -33,7 +32,6 @@ import { PostWebinarOffer } from '@/components/webinar/PostWebinarOffer';
 export default function PostWebinarPage() {
   return (
     <>
-      <PostWebinarStatusBar />
       <PostWebinarHero />
       <PostWebinarBridge />
       <PostWebinarVideoTestimonials />
