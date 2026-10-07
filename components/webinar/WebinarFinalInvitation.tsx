@@ -44,7 +44,7 @@ export function WebinarFinalInvitation() {
                 href="#webinar-widget"
                 className="inline-flex justify-center items-center px-8 py-5 bg-primary text-white font-sans font-semibold rounded-none hover:bg-white hover:text-primary transition-colors duration-300 text-sm tracking-wider uppercase text-center w-full md:w-auto md:min-w-[360px]"
               >
-                Obejrzyj teraz lub wybierz termin
+                WYBIERAM TERMIN
               </a>
               <p className="mt-5 text-sm text-slate-500 font-medium tracking-wide">
                 Nagranie trwa około 45 minut.

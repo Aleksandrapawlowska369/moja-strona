@@ -55,7 +55,7 @@ export function WebinarCommitment() {
               href="#webinar-widget"
               className="inline-flex justify-center items-center px-8 py-5 bg-primary text-white font-sans font-semibold rounded-none hover:bg-slate-900 transition-colors duration-300 text-sm tracking-wider uppercase text-center w-full md:w-auto md:min-w-[360px]"
             >
-              Obejrzyj teraz lub wybierz termin
+              WYBIERAM TERMIN
             </a>
           </div>
 

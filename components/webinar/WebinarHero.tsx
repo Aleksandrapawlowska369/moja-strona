@@ -44,7 +44,7 @@ export function WebinarHero() {
               href="#webinar-widget"
               className="inline-flex justify-center items-center px-8 py-4 bg-primary text-white font-sans font-semibold rounded-none hover:bg-white hover:text-primary transition-colors duration-300 text-sm tracking-wider uppercase text-center w-full"
             >
-              Obejrzyj teraz lub wybierz termin
+              WYBIERAM TERMIN
             </a>
             
           </div>
